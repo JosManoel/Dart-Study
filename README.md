@@ -9,3 +9,7 @@
 * [📝 Dart - Documentação](https://dart.dev/guides)
 * [📺 Programação em Dart: Daniel Ciolfi](https://www.youtube.com/playlist?list=PLR5GUTqrcwXhVV-jNR38vfAZabkmGGKfO)
 * [🎯 DartPad](https://dartpad.dev/)
+
+***
+## 🧾Licença:
+Este projeto está sob a licença [Apache 2.0](https://github.com/JosManoel/Dart-Study/blob/main/LICENSE).
