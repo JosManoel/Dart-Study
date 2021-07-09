@@ -1,4 +1,4 @@
-# Dart: Exercícios e Anotações <a href = "https://dart.dev/"><img src="images\icons\dart.png" width = "24"></img></a>
+# Dart: Exercícios e Anotações <a href = "https://dart.dev/"><img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/dart.png" width = "24"></img></a>
 
 
 Este repositório é foi criado com o intuito de armazenar e organizar as anotações e exercícios realizados durante o aprendizado com a linguagem Dart. O material a seguir é de uso livre, sinta-se a vontade para utilizar estas anotações em seu desenvolvimento.
