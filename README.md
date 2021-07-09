@@ -42,6 +42,8 @@ void main(){
 ***
 
 ## 🧮 Tópicos:
+
+* [Declarando variáveis](https://github.com/JosManoel/Dart-Study/blob/main/topics/variables/variables-notes.md) 🛠
 ***
 ## 📚 Leitura e links recomendado:
 * [📝 Dart - Documentação](https://dart.dev/guides)
