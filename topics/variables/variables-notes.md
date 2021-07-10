@@ -16,9 +16,11 @@ No Dart, temos os seguintes tipos de variáveis suportados:
 * <a href="#numbers">numbers</a>
 * <a href="#strings">strings</a>
 * <a href="#boolean">boolean</a>
-* <a href="#">list</a>
+* <a href="#list">list</a>
+* <a href="#maps">maps</a>
+* <a href="#">var</a>
+* <a href="#">dynamic</a>
 * <a href="#">sets</a>
-* <a href="#">maps</a>
 * <a href="#">rune</a>
 * <a href="#">symbols</a>
 
@@ -84,10 +86,92 @@ O Dart dispõe de uma serie de operadores para serem utilizados para comparar va
 |  !is    | Verifica se o tipo do item é diferente do tipo de outra variável.|
 
 > Estes operadores serão abordados mais profundamente nos tópicos de condicionais.
+
+<h1 id="list"> List</h1>
+
+A list, que recebe o nome de **array** em outras linguagens, é um conjunto de valores ordenados e que possuem um índice. O índice corresponde a uma posição na fila de itens, começando do item 0.
+
+### Exemplo de como funciona o índice:
+
+|Item  |Yu Yu Hakusho|Cowboy Bebop|Trigun|One Piece|Dragon Ball|
+|------|-------------|------------|------|---------|-----------|
+|Índice|     0       |     1      |  2   |    3    |     4     |
+
+### Declarando uma list em Dart:
+
+```
+// Criando uma List
+var lista_de_animes = ["Yu Yu Hakusho", "Cowboy Bebop", "Trigun", "One Piece", "Dragon Ball"];
+
+// Imprimindo uma list
+print(lista_de_animes);
+// Saída: Yu Yu Hakusho, Cowboy Bebop, Trigun, One Piece, Dragon Ball.
+
+// Acessando um item especcifico da list
+// print(list[index]);
+print(lista_de_animes[3]);
+// O resultado é: One Piece.
+```
+> Observe que para retorna os valores nós utilizamos a função print. Esta e outra funções serão mencionadas posteriormente num tópico saída de dados. 
+
+> Outro ponto importante é que utilizamos o tipo de variável **var**, este tipo é como um "coringa" dentro do dart e será documentado mais a frente.
+
+Para verificar a quantidade de itens contidos em uma lista, que seria o seu tamanho, utilizamos o length, que retorna a quantidades de itens.
+
+```
+// Verificando a quantidade de itens
+print(lista_de_animes.length);
+```
+### Adicionando valores na lista:
+
+```
+lista_de_animes.add("Ranma 1/2");
+lista_de_animes.add("Urusei Yatsura");
+
+```
+
+<h1 id="maps"> Maps</h1>
+
+Os maps são os equivalentes aos dicionários utilizados em outras linguagens. Através dos maps é possível criar uma list com um pequeno upgrade: as Keys. As keys fazem parte de um par de chave-valor utilizados nos maps. Um bom exemplo prático disso é o próprio dicionário, onde temos uma **palavra** (key - chave) e o seu **significado** (value - valor).
+
+Exemplo:
+
+| Key    | Value             |
+|--------|-------------------|
+| Game   | Zelda: BOTW       |
+| Cantor | Tatsuro Yamashita |
+| Rapper | Froid             |
+| Carro  | Fusca             |
+
+### Criando maps
+
+```
+// A estrutura de um map segue a seguinte maneira:
+// "key" : "value" => {"chave":"valor"}
+
+// Criando um map
+var mapa = {
+    "Game"   : "Zelda: BOTW",
+    "Cantor" : "Tatsuro Yamashita",
+    "Rapper" : "Froid",
+    "Carro"  : "Fusca",
+};
+
+// Imprimindo um valor especifico a partir da chave:
+print(mapa["Rapper"]);
+// O Resultado é Froid
+
+```
+
+> Os maps possuem várias outras formas de serem utilizados. Para se aprofundar, entre em algum dos links da leitura recomendada. 
+
+
+
 ***
 ## 📚 Leitura e links recomendado:
 * [📝 Dart - Documentação](https://dart.dev/guides)
 * [🎯 Dart Iniciante: Variáveis](https://www.flutterbrasil.com/12-dart-iniciante-variaveis)
+* [🎯 Dart Intermediário: Maps e List](https://www.flutterbrasil.com/23-dart-intermediario-maps-e-list)
 * [🎯 Sintaxe Dart: Tipos (não tão) primitivos](https://www.devmedia.com.br/sintaxe-dart-tipos-nao-tao-primitivos/40368)
 
 ***
