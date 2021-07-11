@@ -18,8 +18,8 @@ No Dart, temos os seguintes tipos de variáveis suportados:
 * <a href="#boolean">boolean</a>
 * <a href="#list">list</a>
 * <a href="#maps">maps</a>
-* <a href="#">var</a>
-* <a href="#">dynamic</a>
+* <a href="#var">var</a>
+* <a href="#dynamic">dynamic</a>
 * <a href="#">sets</a>
 * <a href="#">rune</a>
 * <a href="#">symbols</a>
@@ -165,7 +165,41 @@ print(mapa["Rapper"]);
 
 > Os maps possuem várias outras formas de serem utilizados. Para se aprofundar, entre em algum dos links da leitura recomendada. 
 
+<h1 id="var"> Var</h1>
 
+Dentro do Dart nós temos alguns coringas como o tipo **var**. O var é uma categoria de variável capaz de inferir qual o tipo correto para a variável. Deste modo, se um número for declarado como var, automaticamente ele será um int, caso seja um número inteiro, ou um double, caso seja um número decimal. Uma vez declarado, o tipo da variável não pode ser alterado. 
+
+```
+// Declarando uma variavel var
+var numero = 1;
+print(numero);
+// Resultado: 1
+
+/*
+A seguinte expressao nao e valida, ja que uma vez atribuida como numerica nao e possivel alterar o valor para uma string
+*/
+
+numero = "Yu-Gi-Oh"
+```
+
+> Atenção, ao utilizar o var, o dart utiliza um pouco mais de processamento para descobrir o tipo adequado de variável. Atente-se ao uso excessivo ou desnecessário deste método para evitar processamento desnecessário.
+
+
+<h1 id="dynamic"> Dynamic</h1>
+
+Outro grande coringa presente no Dart é o tipo dynamic. Além de assumir qualquer valor quando declarada, atraves da inferencia como acontece com o tipo **var**, ele tambem pode ser alterado para qualquer outro tipo.
+
+```
+// Declarando uma variavel dynamic
+dynamic numero = 1;
+
+/*
+Utilizando o tipo dynamic, e possivel alterar o o tipo da variavel sem retornar nenhum erro.
+*/
+
+numero = "Yu-Gi-Oh"
+// Parabens Yugi
+```
 
 ***
 ## 📚 Leitura e links recomendado:
