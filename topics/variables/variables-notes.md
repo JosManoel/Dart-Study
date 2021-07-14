@@ -15,14 +15,13 @@ No Dart, temos os seguintes tipos de variáveis suportados:
 
 * <a href="#numbers">numbers</a>
 * <a href="#strings">strings</a>
+* <a href="#runes">runes</a>
 * <a href="#boolean">boolean</a>
 * <a href="#list">list</a>
 * <a href="#maps">maps</a>
+* <a href="#sets">sets</a>
 * <a href="#var">var</a>
 * <a href="#dynamic">dynamic</a>
-* <a href="#">sets</a>
-* <a href="#">rune</a>
-* <a href="#">symbols</a>
 
 
 <h1 id="numbers"> Numbers</h1>
@@ -56,6 +55,22 @@ String anime2 = 'Ranma 1/2';
 ```
 
 > Perceba que na variável anime2, apesar de conter números, eles são tratados com uma string e não como um int. Isso acontece porque estão dentro das aspas.
+
+
+<h1 id="runes"> Runes</h1>
+
+As runas são uma categoria de string com uma importante funcionalidade acrescentada: **Emojis**. Assim como as strings comuns, as runas são uma sequência de caracteres  Unicode, no entanto, diferentemente da string, as runas permitem exibir o código, formando caracteres especiais como símbolos e emojis.
+
+### Criando runas:
+
+```
+Runes computador = Runes("\u1F4BB");
+
+// para imprimir uma rune é necessário utilizar o "fromCharCodes"
+print(String.fromCharCodes(computador));
+//Resultado: 💻
+```
+
 
 <h1 id="boolean"> Boolean</h1>
 
@@ -143,7 +158,7 @@ Exemplo:
 | Rapper | Froid             |
 | Carro  | Fusca             |
 
-### Criando maps
+### Criando maps:
 
 ```
 // A estrutura de um map segue a seguinte maneira:
@@ -164,6 +179,28 @@ print(mapa["Rapper"]);
 ```
 
 > Os maps possuem várias outras formas de serem utilizados. Para se aprofundar, entre em algum dos links da leitura recomendada. 
+
+<h1 id="sets"> Sets</h1>
+
+Os sets em dart são conjuntos não ordenados de itens exclusivos, semelhantes aos conjuntos matemáticos, onde a ordem e elementos duplicados não possuem relevância. Para utilizar um conjunto, deve-se especificar o seu tipo antes das chaves, caso contrário, será reconhecido como um map comum.
+
+### Criando sets:
+
+```
+// Declarando um conjunto Set
+Set deck_kaiba = <String>{"Dragão Branco", "Dragão Branco", "Dragão Branco", "pote da ganancia", "polimerização"};
+```
+
+> Veja que por mais que exista **3** dragãos brancos, apenas **1** será retornado, já que elementos duplicados não são considerados.
+
+
+```
+Set deck_kaiba = <String>{"Dragão Branco", "Dragão Branco", "Dragão Branco", "pote da ganancia", "polimerização"};
+
+print(deck_kaiba);
+// Saida: Dragão Branco, pote da ganancia, polimerização;
+```
+
 
 <h1 id="var"> Var</h1>
 
@@ -207,6 +244,7 @@ numero = "Yu-Gi-Oh"
 * [🎯 Dart Iniciante: Variáveis](https://www.flutterbrasil.com/12-dart-iniciante-variaveis)
 * [🎯 Dart Intermediário: Maps e List](https://www.flutterbrasil.com/23-dart-intermediario-maps-e-list)
 * [🎯 Sintaxe Dart: Tipos (não tão) primitivos](https://www.devmedia.com.br/sintaxe-dart-tipos-nao-tao-primitivos/40368)
+* [🎯 Introdução à programação com Dart](https://dev.to/madebyluque/introducao-a-programacao-com-dart-aji)
 
 ***
 ## 🧾Licença:
