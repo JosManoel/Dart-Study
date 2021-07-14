@@ -39,17 +39,55 @@ void main(){
 
 > Toda linha de código escrita em Dart é terminada em ; (ponto e virgula).
 
+## Comentários:
+
+Os comentários possuem uma importante função no código. Através dele é possível documentar trechos do código para auxiliar a compreensão do código. Aliás, dentre os 3 tipos de comentários suportados pelo Dart, existe um específico para documentação.
+### Comentando o código:
+
+* Comentários de uma única linha:
+```
+// Vamos conquistar as esferas do dragão!
+```
+
+* Comentários de multíplas linhas:
+```
+/*
+Levar pra luta a garra do vencedor
+Correr e pegar as esferas do dragão!
+São tantas maravilhas pra descobrir
+A fantástica aventura começou
+Neste mundo de emoção que você chegou!
+*/
+```
+
+* Comentário de documentação:
+
+> Os comentários de documentação podem ser de unica linha:
+
+```
+/// Musica: Vamos Conquistar As Esferas do Dragão!
+```
+
+> Ou de multiplas linhas:
+```
+/**
+Anime: Dragon Ball (Clássico).
+Autor: Akira Toriyama.
+**/
+```
+
 ***
 
 ## 🧮 Tópicos:
 
-* [Declarando variáveis](https://github.com/JosManoel/Dart-Study/blob/main/topics/variables/variables-notes.md) ✔️ 🛠
+* [Declarando variáveis](https://github.com/JosManoel/Dart-Study/blob/main/topics/variables/variables-notes.md) ✔️ 
 ***
 ## 📚 Leitura e links recomendado:
 * [📝 Dart - Documentação](https://dart.dev/guides)
 * [📺 Programação em Dart: Daniel Ciolfi](https://www.youtube.com/playlist?list=PLR5GUTqrcwXhVV-jNR38vfAZabkmGGKfO)
 * [🎯O que é Dart?](https://www.treinaweb.com.br/blog/o-que-e-dart)
 * [🎯 DartPad](https://dartpad.dev/)
+* [🎯 Introdução à programação com Dart](https://dev.to/madebyluque/introducao-a-programacao-com-dart-aji)
 
 ***
 ## 🧾Licença:
