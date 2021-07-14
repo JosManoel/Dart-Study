@@ -235,7 +235,6 @@ Utilizando o tipo dynamic, e possivel alterar o o tipo da variavel sem retornar 
 */
 
 numero = "Yu-Gi-Oh"
-// Parabens Yugi
 ```
 
 ***
