@@ -81,6 +81,7 @@ Autor: Akira Toriyama.
 ## 🧮 Tópicos:
 
 * [Declarando variáveis](https://github.com/JosManoel/Dart-Study/blob/main/topics/Variaveis.md) ✔️ 
+* [Operadores e operações](https://github.com/JosManoel/Dart-Study/blob/main/topics/Operadores_e_operacoes.md) 🛠
 ***
 ## 📚 Leitura e links recomendado:
 * [📝 Dart - Documentação](https://dart.dev/guides)
