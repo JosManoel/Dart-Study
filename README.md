@@ -80,7 +80,7 @@ Autor: Akira Toriyama.
 
 ## 🧮 Tópicos:
 
-* [Declarando variáveis](https://github.com/JosManoel/Dart-Study/blob/main/topics/variables/variables-notes.md) ✔️ 
+* [Declarando variáveis](https://github.com/JosManoel/Dart-Study/blob/main/topics/Variaveis.md) ✔️ 
 ***
 ## 📚 Leitura e links recomendado:
 * [📝 Dart - Documentação](https://dart.dev/guides)
