@@ -121,6 +121,75 @@ print(inver);
 // Saida: 2
 ```
 ***
+# Operadores relacionais
+
+Os operadores relacionais são destinados a comparações entre fatores, normalmente utilizados em condicionais, que serão abordados posteriormente. Os operadores relacionais retornam valores booleanos (true/false).
+
+### Operadores relacionais:
+|Operador | Descrição                                                        |
+|---------|------------------------------------------------------------------|
+|  ==     | Igual.                                                           |
+|  !=     | Diferente.                                                       |
+|  >      | Maior.                                                           |
+|  >=     | Maior ou igual.                                                  |
+|  <      | Menor.                                                           |
+|  <=     | Menor ou igual.                                                  |
+|  &&     | Operador lógico AND.                                             |
+|  \|\|   | Operador lógico OR.                                              |
+|  is     | Verifica se o item é do mesmo tipo de outro.                     |
+|  !is    | Verifica se o tipo do item é diferente do tipo de outra variável.|
+
+> A utilização destes operadores será melhor abordada no tópico sobre operadores condicionais.
+
+Exemplo:
+
+```
+var arroz = 1;
+var feijao = 2;
+var verdadeiro = true;
+var falso = false;
+
+// Operador: ==
+print(arroz == feijao); 
+// Saida: false
+
+// Operador: !=
+print(arroz != feijao); 
+// Saida: true
+
+// Operador: >
+print(arroz > feijao); 
+// Saida: false
+
+// Operador: <
+print(arroz < feijao); 
+// Saida: true
+
+// Operador: <=
+print(arroz <= feijao); 
+// Saida: true
+
+// Operador: >=
+print(arroz >= feijao); 
+// Saida: false
+
+// Operador logico: &&
+print(verdadeiro && falso);
+// Saida: false
+
+// Operador logico: ||
+print(verdadeiro || falso);
+// Saida: true
+
+// Operador logico: is
+print(verdadeiro is bool); 
+// Saida: true
+
+// Operador
+print(verdadeiro is! int);
+// Saida: true
+```
+***
 ## 📚 Leitura e links recomendado:
 * [📝 Dart - Documentação](https://dart.dev/guides)
 * [🎯 Introdução à programação com Dart](https://dev.to/madebyluque/introducao-a-programacao-com-dart-aji)
