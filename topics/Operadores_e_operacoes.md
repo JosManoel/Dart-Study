@@ -121,9 +121,37 @@ print(inver);
 // Saida: 2
 ```
 ***
+# Operadores de incremento
+Os operadores de incremento são utilizados para diminuir ou incrementar uma variável em **1 unidade**. Normalmente são utilizados em laços como o for, que será abordado posteriormente. Os operadores de incremento são dividos em **prefixo** e **postfix**.
+
+Exemplo:
+```
+// Incremento: ++
+variavel++;
+// adiciona +1 a variavel
+
+// Decremento: --
+variavel--;
+// retira -1 da variavel
+```
+
+## Prefixo
+Altera a variável antes de avaliar a expressão de condição.
+```
+++variavel; // Incremento
+--variavel; // Decremento
+```
+
+## Postfix
+Altera a variável após avaliar a expressão de condição.
+```
+variavel++; // Incremento
+variavel--; // Decremento
+```
+***
 # Operadores relacionais
 
-Os operadores relacionais são destinados a comparações entre fatores, normalmente utilizados em condicionais, que serão abordados posteriormente. Os operadores relacionais retornam valores booleanos (true/false).
+Os operadores relacionais são destinados a comparações entre fatores, normalmente utilizados em condicionais, que serão abordados posteriormente. Os operadores relacionais retornam valores booleanos (**true**/**false**).
 
 ### Operadores relacionais:
 |Operador | Descrição                                                        |
