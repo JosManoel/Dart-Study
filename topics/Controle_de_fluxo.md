@@ -25,7 +25,7 @@ if (pokebola == true){
 }
 ```
 
-Você também pode adicionar outras condições através do uso de operadores lógicos.
+> Você também pode adicionar outras condições através do uso de operadores lógicos.
 
 ### Exemplo de utilização de dois fatores condicionais
 ```
@@ -51,13 +51,33 @@ if(pokebola == true || pokebola_vazia == true){
     print("Não tenho pokebolas");
 }
 ```
+
+### Concatenando if/else
+
+O if/else permite concatenar vários if, um após o outro, numa estrutura semelhante ao **try/catch**, que será abordo mais a frente.
+```
+var estrelas = 0;
+var delito = true;
+
+if(delito == true){
+    estrelas = 2;
+}if(estrelas > 0){
+    print("Voce é procurado, CJ");
+    print("Estrelas: " + estrelas.toString());
+}else{
+    print("Tudo limpo, CJ");
+}
+```
+> Atente-se a necessidade do seu código, se esta estrutura for necessária, talvez seja melhor utilizar um try/catch.
+
+> O ".toString()", utilizado no código acima é uma função que converte uma variável para uma String. Esta função será abordada melhor num futuro tópico.
 ***
 ## 📚 Leitura e links recomendado:
 * [📝 Dart - Documentação](https://dart.dev/guides)
 * [🎯 Introdução à programação com Dart](https://dev.to/madebyluque/introducao-a-programacao-com-dart-aji)
 * [🎯 Linguagem Dart: Controle de Fluxo](https://www.devmedia.com.br/linguagem-dart-controle-de-fluxo/40758)
 * [🎯 Estruturas condicionais e de repetição no Dart](https://www.treinaweb.com.br/blog/estruturas-condicionais-e-de-repeticao-no-dart)
-
+* [🎯 toString method](https://api.flutter.dev/flutter/dart-core/num/toString.html)
 ***
 ## 🧾Licença:
-Este projeto está sob a licença [Apache 2.0](https://github.com/JosManoel/Dart-Study/blob/main/LICENSE).
+Este projeto está sob a licença [Apache 2.0](https://api.flutter.dev/flutter/dart-core/num/toString.html).
