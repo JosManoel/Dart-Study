@@ -163,7 +163,8 @@ Os operadores relacionais são destinados a comparações entre fatores, normalm
 |  <      | Menor.                                                           |
 |  <=     | Menor ou igual.                                                  |
 |  &&     | Operador lógico AND.                                             |
-|  \|\|   | Operador lógico OR.                                              |
+|  \|\|   | Operador lógico OR.                                              | 
+|   !     | Operador lógico NOT.                                             |
 |  is     | Verifica se o item é do mesmo tipo de outro.                     |
 |  !is    | Verifica se o tipo do item é diferente do tipo de outra variável.|
 
@@ -209,6 +210,10 @@ print(verdadeiro && falso);
 print(verdadeiro || falso);
 // Saida: true
 
+// Operador logico: !
+print(!verdadeiro);
+// Saida: falso
+
 // Operador logico: is
 print(verdadeiro is bool); 
 // Saida: true
@@ -222,7 +227,8 @@ print(verdadeiro is! int);
 * [📝 Dart - Documentação](https://dart.dev/guides)
 * [🎯 Introdução à programação com Dart](https://dev.to/madebyluque/introducao-a-programacao-com-dart-aji)
 * [🎯 Linguagem Dart: operadores](https://www.devmedia.com.br/linguagem-dart-operadores/40724)
-
+* [🎯 Video: Realizando Operações Aritméticas](https://www.youtube.com/watch?v=mp7lNJH8Ws0&list=PLR5GUTqrcwXhVV-jNR38vfAZabkmGGKfO&index=3)
+* [🎯 Video: Realizando Operações Lógicas](https://www.youtube.com/watch?v=1QQhZ61dg9k&list=PLR5GUTqrcwXhVV-jNR38vfAZabkmGGKfO&index=4)
 ***
 ## 🧾Licença:
 Este projeto está sob a licença [Apache 2.0](https://github.com/JosManoel/Dart-Study/blob/main/LICENSE).
