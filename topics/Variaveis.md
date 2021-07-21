@@ -244,6 +244,7 @@ numero = "Yu-Gi-Oh"
 * [🎯 Dart Intermediário: Maps e List](https://www.flutterbrasil.com/23-dart-intermediario-maps-e-list)
 * [🎯 Sintaxe Dart: Tipos (não tão) primitivos](https://www.devmedia.com.br/sintaxe-dart-tipos-nao-tao-primitivos/40368)
 * [🎯 Introdução à programação com Dart](https://dev.to/madebyluque/introducao-a-programacao-com-dart-aji)
+* [🎯 Video: Declarando e Modificando Variáveis](https://www.youtube.com/watch?v=wMS3DO0jL0I&list=PLR5GUTqrcwXhVV-jNR38vfAZabkmGGKfO&index=2)
 
 ***
 ## 🧾Licença:
