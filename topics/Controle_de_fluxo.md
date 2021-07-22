@@ -54,32 +54,78 @@ if(pokebola == true || pokebola_vazia == true){
 
 ### Concatenando if/else
 
-O if/else permite concatenar vários if, um após o outro, numa estrutura semelhante ao **try/catch**, que será abordo mais a frente.
+O if/else também permite concatenar vários **else/if** entre o if e o else:
+
 ```
 var estrelas = 0;
 var delito = true;
 
 if(delito == true){
     estrelas = 2;
-}if(estrelas > 0){
-    print("Voce é procurado, CJ");
+}else if(estrelas > 0){
+    print("Voce e procurado, CJ");
     print("Estrelas: " + estrelas.toString());
 }else{
     print("Tudo limpo, CJ");
 }
 ```
-> Atente-se a necessidade do seu código, se esta estrutura for necessária, talvez seja melhor utilizar um try/catch.
+> Atente-se a necessidade do seu código, se esta estrutura for necessária, talvez seja melhor utilizar um switch/case.
 
 > O ".toString()", utilizado no código acima é uma função que converte uma variável para uma String. Esta função será abordada melhor num futuro tópico.
 ***
 
-#
+colocar 
+* operador ternario
+* operador switch case
+* operador try catch
+
+# Operador Ternário 
+O operador ternário é uma forma compacta de realizar o if/else, ideal para pequenas condicionais que podem ser escritas em apenas uma linha. 
+
+### Estruturua de um operador ternário
+
+|Variavel| Condição | Operador | Retorno caso a variável seja _true_ | Operador | Retorno caso a variável seja _false_| Resultado |
+|-|-|-|-|-|-|-|
+|Cavaleiro =  | true |  ?  |"Espada"| : |"Cajado"| Cavaleiro = "Espada"|
+|Mago = | false| ?| "Espada"| : | "Cajado"| Mago = "Cajado"|
+
+### Exemplo de utilização do operador ternário:
+```
+bool divida = false;
+String conta;
+
+conta = divida ? "saldo devedor" :"possui credito";
+print(conta);
+
+/* Caso a divida seja true, sera retornado um saldo devedor, caso contrario, sera retornado que a conta possui credito */
+```
+> Atente-se: O valor booleano da condição deve ser declarado (se é true ou false), caso contrário, será atribuído um valor null, causando um erro no código.
+
+### Outra maneira de declarar um operador ternário
+O operador possui uma forma ainda mais contraída, que atribui um valor padrão caso uma valor que está sendo recebido seja nulo:
+
+|Variável| Valor repassado | Operador | Valor caso o a variável repassada seja nula|
+|-|-|-|-|
+|guilda = |"Almas da Ofensa" | ?? | "Sem guilda"
+
+### Exemplo de utilização da segunda forma:
+```
+String nome = "Ataru";
+String usuario = nome ?? "Não informado";
+
+print(usuario);
+
+/* Caso o nome tenha um valor diferente de null, ele sera atribuido ao usuario. Caso contrario, sera colocado como Nao informado */
+```
+
 ## 📚 Leitura e links recomendado:
 * [📝 Dart - Documentação](https://dart.dev/guides)
 * [🎯 Introdução à programação com Dart](https://dev.to/madebyluque/introducao-a-programacao-com-dart-aji)
 * [🎯 Linguagem Dart: Controle de Fluxo](https://www.devmedia.com.br/linguagem-dart-controle-de-fluxo/40758)
 * [🎯 Estruturas condicionais e de repetição no Dart](https://www.treinaweb.com.br/blog/estruturas-condicionais-e-de-repeticao-no-dart)
 * [🎯 toString method](https://api.flutter.dev/flutter/dart-core/num/toString.html)
+* [🎯 Dart Intermediário: Condicionais](https://www.flutterbrasil.com/21-dart-intermediario-condicionais)
+* [🎯 Video: Tomando Decisões (Condicionais)](https://www.youtube.com/watch?v=_FMjnxwxGzA&list=PLR5GUTqrcwXhVV-jNR38vfAZabkmGGKfO&index=5)
 ***
 ## 🧾Licença:
 Este projeto está sob a licença [Apache 2.0](https://api.flutter.dev/flutter/dart-core/num/toString.html).

@@ -234,7 +234,7 @@ dynamic numero = 1;
 Utilizando o tipo dynamic, e possivel alterar o o tipo da variavel sem retornar nenhum erro.
 */
 
-numero = "Yu-Gi-Oh"
+numero = "Yu-Gi-Oh";
 ```
 
 ***
