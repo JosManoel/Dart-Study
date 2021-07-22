@@ -74,11 +74,6 @@ if(delito == true){
 > O ".toString()", utilizado no código acima é uma função que converte uma variável para uma String. Esta função será abordada melhor num futuro tópico.
 ***
 
-colocar 
-* operador ternario
-* operador switch case
-* operador try catch
-
 # Operador Ternário 
 O operador ternário é uma forma compacta de realizar o if/else, ideal para pequenas condicionais que podem ser escritas em apenas uma linha. 
 
