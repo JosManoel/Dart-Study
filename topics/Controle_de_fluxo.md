@@ -115,7 +115,7 @@ print(usuario);
 
 # Switch/Case - Estruturas de decisões limitadas
 
-O **Switch/Case** é uma estrutura condicional de decisões limitadas, isto é, uma estrutura onde todos os possíveis resultados já foram pré-definidos. O Switch/Case funciona comparando o valor de uma variável aos valores já definidos. Caso exista uma correspondência, o código dentro daquele caso será executado.
+O **Switch/Case** é uma estrutura condicional de decisões limitadas, isto é, uma estrutura onde todos os possíveis resultados já foram predefinidos. O Switch/Case funciona comparando o valor de uma variável aos valores já definidos. Caso exista uma correspondência, o código dentro daquele caso será executado.
 
 ### Exemplo de utilização do Switch/Case
 ```
