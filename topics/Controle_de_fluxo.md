@@ -113,13 +113,39 @@ print(usuario);
 /* Caso o nome tenha um valor diferente de null, ele sera atribuido ao usuario. Caso contrario, sera colocado como Nao informado */
 ```
 
+# Switch/Case - Estruturas de decisões limitadas
+
+O **Switch/Case** é uma estrutura condicional de decisões limitadas, isto é, uma estrutura onde todos os possíveis resultados já foram pré-definidos. O Switch/Case funciona comparando o valor de uma variável aos valores já definidos. Caso exista uma correspondência, o código dentro daquele caso será executado.
+
+### Exemplo de utilização do Switch/Case
+```
+var cond = 1;
+
+switch (cond) {
+    case 1:
+        print("Caso 1");
+        break;
+    caso 2:
+        print("Caso 2");
+        break;
+    default:
+        print("Nenhum caso");
+}
+```
+Repare que nós temos a presença de um caso **default**. O default contem um código que será executado caso nenhuma das opções seja atendida.
+
+> Neste exemplo, caso a variável cond não seja igual à 1 ou 2, será exibido "Nenhum caso".
+
+No Switch/Case também fazemos uso da palavra **break**. O break é utilizado para indicar que o código dentro da condicional foi finalizado, passando para as setenças seguintes. O uso do break é obrigatório. Caso ele não seja utilizado, ocorrerá um erro durante a execução.
+
+> O uso excessivo dessa condicional não é recomendado por questões de performance. 
+
 ## 📚 Leitura e links recomendado:
 * [📝 Dart - Documentação](https://dart.dev/guides)
 * [🎯 Introdução à programação com Dart](https://dev.to/madebyluque/introducao-a-programacao-com-dart-aji)
 * [🎯 Linguagem Dart: Controle de Fluxo](https://www.devmedia.com.br/linguagem-dart-controle-de-fluxo/40758)
 * [🎯 Estruturas condicionais e de repetição no Dart](https://www.treinaweb.com.br/blog/estruturas-condicionais-e-de-repeticao-no-dart)
 * [🎯 toString method](https://api.flutter.dev/flutter/dart-core/num/toString.html)
-* [🎯 Dart Intermediário: Condicionais](https://www.flutterbrasil.com/21-dart-intermediario-condicionais)
 * [🎯 Video: Tomando Decisões (Condicionais)](https://www.youtube.com/watch?v=_FMjnxwxGzA&list=PLR5GUTqrcwXhVV-jNR38vfAZabkmGGKfO&index=5)
 ***
 ## 🧾Licença:
