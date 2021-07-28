@@ -82,7 +82,8 @@ Autor: Akira Toriyama.
 
 * [Declarando variáveis](https://github.com/JosManoel/Dart-Study/blob/main/topics/Variaveis.md) ✔️ 
 * [Operadores e operações](https://github.com/JosManoel/Dart-Study/blob/main/topics/Operadores_e_operacoes.md) ✔️
-* [Controle de fluxo - Estruturas condicionais](https://github.com/JosManoel/Dart-Study/blob/main/topics/Controle_de_fluxo.md) 🛠
+* [Controle de fluxo - Estruturas condicionais](https://github.com/JosManoel/Dart-Study/blob/main/topics/Controle_de_fluxo.md) ✔️
+* [Estruturas de repetição](https://github.com/JosManoel/Dart-Study/blob/main/topics/Estruturas_de_repeticao.md) 🛠
 ***
 ## 📚 Leitura e links recomendado:
 * [📝 Dart - Documentação](https://dart.dev/guides)
