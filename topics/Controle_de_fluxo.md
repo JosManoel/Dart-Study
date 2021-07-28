@@ -140,6 +140,7 @@ No Switch/Case também fazemos uso da palavra **break**. O break é utilizado pa
 
 > O uso excessivo dessa condicional não é recomendado por questões de performance. 
 
+***
 ## 📚 Leitura e links recomendado:
 * [📝 Dart - Documentação](https://dart.dev/guides)
 * [🎯 Introdução à programação com Dart](https://dev.to/madebyluque/introducao-a-programacao-com-dart-aji)
