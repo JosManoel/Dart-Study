@@ -22,14 +22,28 @@ No exemplo acima, a variável de incremento **count** é iniciada com o valor 1 
 
 ## For ..in - Laços interáveis
 
-O Laço **For ..in** geralmente é utilizado para criar um loop em interáveis, como o list e o set, e possui um retorno vazio. O **for ..in** é uma forma contraída do laço for e é bastante útil em situações em que é necessário apenas percorrer alguma List. 
-
+O Laço **For ..in** é geralmente utilizado para criar um loop em iteráveis, como o list e o set, e possui um retorno vazio. O **for ..in** é uma forma contraída do laço for e é bastante útil em situações em que é necessário apenas percorrer alguma List. 
 
 ### Exemplo de utilização do laço for ..in
 ```
 var lista_de_animes = ["Yu Yu Hakusho", "Cowboy Bebop", "Trigun", "One Piece", "Dragon Ball"];
 
 for (String anime in lista_de_animes) {print(anime);}
+
+```
+
+## ForEach() -  manipulação de listas
+
+Assim como no **for ..in**, o **forEach()** é capaz de realizar percorrer cada elemento de uma lista e executar um determinado trecho de código, seja ele uma operação matemática ou apenas um print. No entanto, o **forEach()** não retorna nenhum elemento, da mesma forma que o for ..in. Caso esta função seja necessária, é recomendado o o uso do **map()**.
+
+> O forEach é recomendado quando é necessário apenas a execução de um procedimento específico, sem a necessidade de retornar um conjunto de dados.
+
+### Exemplo de utilização do laço forEach()
+
+```
+var lista_de_animes = ["Yu Yu Hakusho", "Cowboy Bebop", "Trigun", "One Piece", "Dragon Ball"];
+
+lista_de_animes.forEach((anime) => print(anime));
 
 ```
 ***
