@@ -47,6 +47,57 @@ lista_de_animes.forEach((anime) => print(anime));
 
 ```
 ***
+
+# map() - manipulação de listas
+
+O **map()** funciona de uma maneira semelhante ao **forEach()**, realizando interações em listas. No entando este método é capaz de retornar um grupo de elementos criados a partir de funções definidas no map.
+
+> CUIDADO: O método mensionado é o **map()**, que é diferente do **Map()** ( Com o 'M' maiúsculo ). O **map()** é um método que realiza interações. Já o **Map()** é um construtor, sendo uma das formas de se declarar uma variável do tipo Map.
+
+O **map()** pode ser utilizado em situações que é necessário armazenar o retorno do método, para que seja acessado e utilizado posteriormente.
+
+### Exemplo de utilização do map()
+
+* Utilizando o map() apenas para percorrer e imprimir valores:
+
+```
+var lista_de_animes = ["Yu Yu Hakusho", "Cowboy Bebop", "Trigun", "One Piece", "Dragon Ball"];
+
+lista_de_animes.map((anime) => print(anime)).toList();
+
+```
+
+* Utilizando o map() para criar uma nova lista a partir de uma já existente:
+
+```
+var lista_1 = [2,4,6,8];
+print("Lista 1");
+lista_1.forEach((num_1) => print(num_1));
+
+// Criando nova lista a partir da lista 1
+var lista_2 = lista_1.map((num) => num*2).toList();
+print("Lista 2");
+lista_2.forEach((num_2) => print (num_2));
+
+
+/*
+
+Saída:
+
+Lista 1
+2
+4
+6
+8
+Lista 2
+4
+8
+12
+16
+
+*/
+```
+***
 ## 📚 Leitura e links recomendado:
 * [📝 Dart - Documentação](https://dart.dev/guides)
 * [🎯 Introdução à programação com Dart](https://dev.to/madebyluque/introducao-a-programacao-com-dart-aji)
@@ -57,6 +108,8 @@ lista_de_animes.forEach((anime) => print(anime));
 * [🎯 Estruturas condicionais e de repetição no Dart](https://www.treinaweb.com.br/blog/estruturas-condicionais-e-de-repeticao-no-dart)
 * [🎯 Iterating asynchronous operations in dart(using forEach and for..in loop)](https://dev.to/uchennaemeruche/iterating-asynchronous-operations-in-dart-using-foreach-and-for-in-loop-1n4f)
 * [🎯 Aprendendo a utilizar forEach( ) ou map( ) para a manipulação de listas no Dart.](https://medium.com/@arthurgiani/aprendendo-a-utilizar-foreach-ou-map-para-a-manipula%C3%A7%C3%A3o-de-listas-no-dart-230e0dc1a53d)
+* [🎯 Quando utilizar os métodos “map()” ou “toList()”?](https://pt.stackoverflow.com/questions/403324/quando-utilizar-os-m%c3%a9todos-map-ou-tolist)
+* [🎯 Você sabe utilizar um mapa? {Dart}](https://www.linkedin.com/pulse/voc%C3%AA-sabe-utilizar-um-mapa-dart-fellipe-malta/?originalSubdomain=pt)
 * [🎯 Video: Realizando Repetições (Loops)](https://www.youtube.com/watch?v=PAv1k0z4wrI&list=PLR5GUTqrcwXhVV-jNR38vfAZabkmGGKfO&index=8)
 ***
 ## 🧾Licença:
