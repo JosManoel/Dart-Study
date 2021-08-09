@@ -98,6 +98,26 @@ Lista 2
 */
 ```
 ***
+# While - Interações não predefinidas
+
+O **While** é uma estrutura de repetição que permite que o código seja executado até uma condição se torne **false**, semelhante ao operador **if**, com a diferença que o bloco será executado **enquanto** a condição for verdadeira. 
+
+Deste modo, é comum encontrar na estrutura do while uma variável que é incrementada ao final de um ciclo.
+
+### Exemplo de utilização do while
+
+```
+var count = 1;
+
+while (count <= 4){
+    print("Goku SSJ" + count.toString());
+
+    count++;
+}
+```
+
+> O while é indicado para situações onde não existe um número exato de interações predefinidas, porém, já se possui uma ideia de qual seria a gama de casos atendidos.
+***
 ## 📚 Leitura e links recomendado:
 * [📝 Dart - Documentação](https://dart.dev/guides)
 * [🎯 Introdução à programação com Dart](https://dev.to/madebyluque/introducao-a-programacao-com-dart-aji)
@@ -108,6 +128,7 @@ Lista 2
 * [🎯 Estruturas condicionais e de repetição no Dart](https://www.treinaweb.com.br/blog/estruturas-condicionais-e-de-repeticao-no-dart)
 * [🎯 Iterating asynchronous operations in dart(using forEach and for..in loop)](https://dev.to/uchennaemeruche/iterating-asynchronous-operations-in-dart-using-foreach-and-for-in-loop-1n4f)
 * [🎯 Aprendendo a utilizar forEach( ) ou map( ) para a manipulação de listas no Dart.](https://medium.com/@arthurgiani/aprendendo-a-utilizar-foreach-ou-map-para-a-manipula%C3%A7%C3%A3o-de-listas-no-dart-230e0dc1a53d)
+* [🎯 Diferença entre while e for](https://pt.stackoverflow.com/questions/61491/diferen%C3%A7a-entre-while-e-for)
 * [🎯 Quando utilizar os métodos “map()” ou “toList()”?](https://pt.stackoverflow.com/questions/403324/quando-utilizar-os-m%c3%a9todos-map-ou-tolist)
 * [🎯 Você sabe utilizar um mapa? {Dart}](https://www.linkedin.com/pulse/voc%C3%AA-sabe-utilizar-um-mapa-dart-fellipe-malta/?originalSubdomain=pt)
 * [🎯 Video: Realizando Repetições (Loops)](https://www.youtube.com/watch?v=PAv1k0z4wrI&list=PLR5GUTqrcwXhVV-jNR38vfAZabkmGGKfO&index=8)
