@@ -117,6 +117,78 @@ while (count <= 4){
 ```
 
 > O while é indicado para situações onde não existe um número exato de interações predefinidas, porém, já se possui uma ideia de qual seria a gama de casos atendidos.
+
+## Do/While - Uma segunda forma de utilizar o While
+
+O **Do/While** funciona exatamente da mesma forma que o **While** comum, porém possui uma pequena mudança em sua estrutura, apresentando o operador de verificação no final. Essa configuração permite que o laço sempre seja executado pelo menos uma vez no código, mesmo que a condição de retorno não seja atendida.
+
+### Exemplo de utilização do while
+
+```
+void main() {
+  var ki = 1;
+
+  print("Golpe especial");
+  print("Ki disponível: " + ki.toString());
+  
+  do {
+      print("Carregando Ki: " + ki.toString());
+      ki++;
+  } while (ki <= 10);
+  
+  print("Golpe especial!");
+}
+
+
+/*
+Saída:
+
+Golpe especial
+Ki disponível: 1
+Carregando Ki: 1
+Carregando Ki: 2
+Carregando Ki: 3
+Carregando Ki: 4
+Carregando Ki: 5
+Carregando Ki: 6
+Carregando Ki: 7
+Carregando Ki: 8
+Carregando Ki: 9
+Carregando Ki: 10
+Golpe especial!
+*/
+```
+
+> No exemplo anterior o Ki será carregado apenas se o valor inicial for menor que 10. Caso a variável seja iniciada com o valor 10, não será necessário carregar o Ki.
+
+
+```
+void main() {
+  var ki = 10;
+
+  print("Golpe especial");
+  print("Ki disponível: " + ki.toString());
+  
+  do {
+      print("Carregando Ki: " + ki.toString());
+      ki++;
+  } while (ki <= 10);
+  
+  print("Golpe especial!");
+}
+
+
+/*
+Saída:
+
+Golpe especial
+Ki disponível: 10
+Carregando Ki: 10
+Golpe especial!
+*/
+```
+
+
 ***
 ## 📚 Leitura e links recomendado:
 * [📝 Dart - Documentação](https://dart.dev/guides)
