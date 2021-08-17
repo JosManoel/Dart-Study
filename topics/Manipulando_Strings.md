@@ -38,6 +38,25 @@ ou no torrent mais próximo de você;
 """;
 ```
 
+# Modificando e realizando operações
+
+Em suma, as strings são imutáveis. No entanto, é possível realizar operações com uma string, resultando na criação de uma nova. Como exemplo disso temos a concatenação de strings, que resulta numa nova string que contém a informação de todas as outras.
+### Exemplo de concatenação de Strings
+```
+var conc = "Kobayashi-san " + "Chi no " + "Maid Dragon";
+```
+> Também é possível concatenar strings sem utilizar o operador '+'
+
+```
+var conc = "Kobayashi-san " + "Chi no " + "Maid Dragon";
+```
+## Interpolando variáveis 
+O processo de interpolação de variáveis acontece de maneira semelhante ao JavaScript, em que a variável é incluída entre chaves.
+
+```
+var episodios = 13;
+print ("Numero de episodios da 1 temporada: ${episodios}");
+```
 ## 📚 Leitura e links recomendado:
 * [📝 Dart - Documentação](https://dart.dev/guides)
 * [🎯 String class](https://api.dart.dev/stable/2.13.4/dart-core/String-class.html)
