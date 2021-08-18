@@ -57,13 +57,40 @@ O processo de interpolação de variáveis acontece de maneira semelhante ao Jav
 var episodios = 13;
 print ("Numero de episodios da 1 temporada: ${episodios}");
 ```
+
+## Contando caracteres 
+No Dart os caracteres são contados a partir do **Code Units** e, para isso, são utilizadas diferentes funções, de acordo com cada necessidade. Em um primeiro cenário, podemos utilizar o **length** para descobrir quantos caracteres existem dentro de uma string, da mesma forma que ocorre com as **listas**. Isso acontece porque uma string nada mais é que uma lista de caracteres, que podem ser acessados individualmente através do índice.
+### Exemplo de utilização do lenght
+```
+var frase = "Em todos esses anos nessa industria vital, essa é a 1 vez que isso me acontece";
+  
+print(frase.length);
+
+// imprimindo um caractere pelo indice
+print(frase[1]);
+
+//Saída: m 
+```
+
+O Dart também permite recuperar o Code Unit de cada caractere, utilizando o **codeUnitAt**, que retorna o número de um caractere específico, ou o **codeUnits**, que retorna uma lista com todos os códigos.
+
+```
+// CodeUnits
+var nome = "Jaden";
+print(nome.codeUnits);
+// Saída: [74, 97, 100, 101, 110]
+
+// CodeUnitsAt
+print(nome.codeUnitAt(1));
+// Saída: 97
+
+```
 ## 📚 Leitura e links recomendado:
 * [📝 Dart - Documentação](https://dart.dev/guides)
 * [🎯 String class](https://api.dart.dev/stable/2.13.4/dart-core/String-class.html)
 * [🎯 Top 10 String utility methods you should know (Dart)](https://codeburst.io/top-10-string-utility-methods-you-should-know-dart-b51ef65b3cc2)
 * [🎯 Dart string manipulation done right](https://medium.com/dartlang/dart-string-manipulation-done-right-5abd0668ba3e)
-* [📝 Transformação entre as representações UTF-8 e UTF-16
-](http://www4.inf.puc-rio.br/~inf1018//2013.1/trabs/t1/trab1.html)
+* [📝 Transformação entre as representações UTF-8 e UTF-16](http://www4.inf.puc-rio.br/~inf1018//2013.1/trabs/t1/trab1.html)
 
 ***
 ## 🧾Licença:
