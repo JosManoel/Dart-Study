@@ -75,6 +75,8 @@ Anime: Dragon Ball (Clássico).
 Autor: Akira Toriyama.
 **/
 ```
+
+> ⚠️ Atenção: Boa parte das variáveis utilizadas neste repositório possuem um tom descontraído, trazendo referencias a obras da cultura pop. O uso de variáveis como estas em projetos sérios não é recomendado. ⚠️
 ***
 
 ## 🧮 Tópicos:
