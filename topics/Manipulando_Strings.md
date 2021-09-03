@@ -170,6 +170,72 @@ print(ranma.endsWith("razão"));
 //Saida: true
 ```
 
+## IndexOf()
+O método **indexOf()** retorna o índice da primeira correspondência do caractere informado na string passada. Caso não exista nenhuma correspondência, o valor retornado é **-1**.
+
+### Utilização do método indexOf()
+```
+var name = "Akane Tendo";
+print(name.indexOf("ane"));
+
+//Saida: 2
+```
+```
+var name = "Akane Tendo";
+print(name.indexOf("y")); 
+
+//Saida: -1
+```
+## LastIndexOf()
+O método **lastIndexOf()** retorna o índice da última correspondência da string fornecida, retornando **-1** caso não exista nenhuma correspondência.
+
+```
+var name = "Megane";
+print(name.lastIndexOf("e"));
+
+Saída: 5
+```
+> Neste caso, o valor devolvido é o índice do último caractere 'e', com o valor 5.
+
+## Trim()
+O método **trim()** é utilizado para retirar os espaços no começo e final de uma string. Caso não exista espaço antes ou depois da string, a string original é retornada.
+
+```
+var name = "    A Turma do Barulho    ";
+print(name.trim()); 
+
+//Saida: A turma do Barulho
+```
+
+### Removendo apenas os espaços da esquerda - TrimLeft()
+```
+var name = "    A Turma do Barulho    ";
+print(name.trimLeft());
+
+//Saida: A Turma do Barulho    
+```
+
+### Removendo apenas os espaços da direita - TrimRight()
+```
+var name = "    A Turma do Barulho    ";
+print(name.trimRight());
+
+//Saida:    A Turma do Barulho
+```
+O espaço em branco é definido pelo Unicode White_Space. Aqui está uma lista destes caractares, retirada da documentação.
+
+    0009..000D    ; White_Space # Cc   <control-0009>..<control-000D>
+    0020          ; White_Space # Zs   SPACE
+    0085          ; White_Space # Cc   <control-0085>
+    00A0          ; White_Space # Zs   NO-BREAK SPACE
+    1680          ; White_Space # Zs   OGHAM SPACE MARK
+    2000..200A    ; White_Space # Zs   EN QUAD..HAIR SPACE
+    2028          ; White_Space # Zl   LINE SEPARATOR
+    2029          ; White_Space # Zp   PARAGRAPH SEPARATOR
+    202F          ; White_Space # Zs   NARROW NO-BREAK SPACE
+    205F          ; White_Space # Zs   MEDIUM MATHEMATICAL SPACE
+    3000          ; White_Space # Zs   IDEOGRAPHIC SPACE
+    FEFF          ; BOM                ZERO WIDTH NO_BREAK SPACE
 ## 📚 Leitura e links recomendado:
 * [📝 Dart - Documentação](https://dart.dev/guides)
 * [🎯 String class](https://api.dart.dev/stable/2.13.4/dart-core/String-class.html)
