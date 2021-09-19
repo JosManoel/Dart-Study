@@ -170,6 +170,22 @@ print(ranma.endsWith("razão"));
 //Saida: true
 ```
 
+## ReplaceAll()
+Este método pode ser bem útil para adicionar ou remover a acentuação de alguns caracteres. O método **replaceAll()** substitui todas as ocorrências de um caractere ou substring por outra previamente informada.
+
+### Estrutura
+```
+// texto.replaceAll(String original, String substituta);
+```
+
+### Utilização do método replaceAll()
+```
+var name = "fafnir";
+print(name.replaceAll( 'f', 'd'));
+
+//Saída: dadnir
+```
+
 ## IndexOf()
 O método **indexOf()** retorna o índice da primeira correspondência do caractere informado na string passada. Caso não exista nenhuma correspondência, o valor retornado é **-1**.
 
@@ -236,6 +252,62 @@ O espaço em branco é definido pelo Unicode White_Space. Aqui está uma lista d
     205F          ; White_Space # Zs   MEDIUM MATHEMATICAL SPACE
     3000          ; White_Space # Zs   IDEOGRAPHIC SPACE
     FEFF          ; BOM                ZERO WIDTH NO_BREAK SPACE
+
+
+## PadLeft()
+
+O método **padLeft()** é utilizado para preencher uma string a esquerda, caso a string seja menor que a largura indicada, com outra string ou caractere.
+
+
+### Estrutura
+```
+// texto.padLeft(int largura, [String preenchimento = 'x']);
+```
+
+### Utilização do método padLeft()
+```
+var name = "Doquinha";
+print(name.padLeft(12, 'D'));
+
+//Saída: DDDDDoquinha
+```
+
+
+## PadRight()
+O método **padRight()** funciona da mesma maneira que o método **padLeft()**, preenchendo uma string a direita com um caractere caso a string seja menor que a largura informada.
+
+### Estrutura
+```
+// texto.padRight(int largura, [String preenchimento = 'x']);
+```
+
+### Utilização do método padRight()
+```
+var name = "Doquinha";
+print(name.padLeft(12, 'D'));
+
+//Saída: DoquinhaDDDD
+```
+
+## Split()
+
+O método **split()** pode ser útil na divisão de uma string. Sua função é dividir a string em várias substrings conforme o caractere informado, retornando uma lista com as strings informadas.
+
+### Estrutura
+```
+// texto.split(parametro);
+```
+
+### Utilização do método padLeft()
+```
+var Citypop = "For tonight you better stay with me";
+
+// Divide a string a partir dos espaços
+print(name.split(' '));
+
+//Saída: [For, tonight, you, better, stay, with, me]
+```
+
 ## 📚 Leitura e links recomendado:
 * [📝 Dart - Documentação](https://dart.dev/guides)
 * [🎯 String class](https://api.dart.dev/stable/2.13.4/dart-core/String-class.html)
