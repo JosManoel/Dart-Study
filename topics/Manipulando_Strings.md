@@ -308,6 +308,34 @@ print(name.split(' '));
 //Saída: [For, tonight, you, better, stay, with, me]
 ```
 
+## Problemas ao Utilizar a String: Utilização de Emojis
+
+Como informado acima, o Dart, assim como outras linguagens criadas antes da popularização dos emojis, utiliza uma sequência de unidades de código UTF-16, trazendo algumas particularidades ao uso de caracteres especiais. 
+
+Algumas da anomalias podem ocorrer na contagem de caracteres, como, por exemplo na string "Hello👋", que claramente possui 6 caracteres, no entando, ao utilizar o método length, obtemos 7 como resultado. Este fenômeno ocorre devido a uma particularidade do Dart, que utiliza duas ou mais code units para formar o emojis.
+
+Caracteres | H | e | l | l | o | 👋
+-----------|---|---|---|---|---|---
+Code Unitis|72 |101|108|108|111|55357 + 56395
+
+Esta situação pode ser facilmente resolvida utilizando o package characters, que identifica o uso de emojis em uma string e retorna o numero real de caracteres. 
+
+### Exemplo de utilizaçção do package characters
+```
+    var texto = "Eu vim em paz 🖖"
+    print("Caracteres: ${texto.length}");
+    // Saída: 16 caracteres.
+
+    print("Caracteres: ${texto.characters.length}");
+    // Saída: 15 Caracteres
+
+```
+
+> Para implementar o package characters em seu projeto Flutter acesse a sua [documentação](https://pub.dev/packages/characters/install).
+
+> Existe outros possíveis erros não tão comuns na utilização de Emojis dentro de projetos com o Dart e o Flutter. Caso queira se inteirar, acesse o [artigo](https://medium.com/dartlang/dart-string-manipulation-done-right-5abd0668ba3e) escrito por Tao dong.
+
+***
 ## 📚 Leitura e links recomendado:
 * [📝 Dart - Documentação](https://dart.dev/guides)
 * [🎯 String class](https://api.dart.dev/stable/2.13.4/dart-core/String-class.html)
