@@ -335,6 +335,7 @@ Esta situação pode ser facilmente resolvida utilizando o package characters, q
 
 > Existe outros possíveis erros não tão comuns na utilização de Emojis dentro de projetos com o Dart e o Flutter. Caso queira se inteirar, acesse o [artigo](https://medium.com/dartlang/dart-string-manipulation-done-right-5abd0668ba3e) escrito por Tao dong.
 
+
 ***
 ## 📚 Leitura e links recomendado:
 * [📝 Dart - Documentação](https://dart.dev/guides)
