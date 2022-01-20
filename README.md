@@ -1,7 +1,7 @@
 <h1 align="center">
   <div>
     <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/dart.png" width = "26"> 
-    Dart: Exercícios e Anotações
+    Dart-Study: Exercícios e Anotações
   </div>
 
   <p align="center">
