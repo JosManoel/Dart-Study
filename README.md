@@ -1,5 +1,31 @@
-# Dart: Exercícios e Anotações <a href = "https://dart.dev/"><img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/dart.png" width = "24"></img></a>
+<h1 align="center">
+  <div>
+    <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/dart.png" width = "26"> 
+    Dart: Exercícios e Anotações
+  </div>
 
+  <p align="center">
+    <img src="https://img.shields.io/github/commit-activity/m/JosManoel/Dart-Study">
+    <img src="https://img.shields.io/github/last-commit/JosManoel/Dart-Study">
+    <img src="https://img.shields.io/github/contributors/JosManoel/Dart-Study">
+    <img src="https://img.shields.io/github/license/JosManoel/Dart-Study">
+  </p>
+</h1>
+
+<p align="center">
+  <a href="#sobre-este-projeto">👨🏻‍💻 Sobre este projeto </a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#o-que-e-dart">🎯 O que é Dart?</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#comentarios">🏷️ Comentários no Dart </a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#topicos">🧮 Tópicos</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#leitura">📚 Leitura e links recomendados</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#licenca">🧾Licença</a>
+</p>
+
+
+
+***
+
+<h2 id = "sobre-este-projeto">👨🏻‍💻 Sobre este projeto</h2>
 
 Este repositório é foi criado com o intuito de armazenar e organizar as anotações e exercícios realizados durante o aprendizado com a linguagem Dart. O material a seguir é de uso livre, sinta-se a vontade para utilizar estas anotações em seu desenvolvimento.
 
@@ -7,7 +33,7 @@ Este repositório é foi criado com o intuito de armazenar e organizar as anota�
 
 ***
 
-## O que é Dart? Um breve resumo.
+<h2 id="o-que-e-dart">🎯 O que é Dart?</h2>
 
 Dart é uma linguagem orientada à objetos fortemente tipada¹ que pode ser utilizada tanto do "lado do cliente" (front-end) como do lado do servidor(back-end). Ela foi criada em 2011 pelo Google originalmente para substituir o javascript, porém não obteve exito devida a evolução do JS e dos scripts para páginas web. Atualmente o Dart é considerado uma linguagem multi-paradigma, onde é comumente utilizada no desenvolvimento de aplicações em Flutter.
 
@@ -39,7 +65,9 @@ void main(){
 
 > Toda linha de código escrita em Dart é terminada em ; (ponto e virgula).
 
-## Comentários:
+***
+
+<h2 id="comentarios">🏷️ Comentários no Dart</h2>
 
 Os comentários possuem uma importante função no código. Através dele é possível documentar trechos do código para auxiliar a compreensão do código. Aliás, dentre os 3 tipos de comentários suportados pelo Dart, existe um específico para documentação.
 ### Comentando o código:
@@ -76,18 +104,22 @@ Autor: Akira Toriyama.
 **/
 ```
 
-> ⚠️ Atenção: Boa parte das variáveis utilizadas neste repositório possuem um tom descontraído, trazendo referencias a obras da cultura pop. O uso de variáveis como estas em projetos sérios não é recomendado. ⚠️
+> ⚠️ Atenção: Boa parte das variáveis utilizadas neste repositório possuem um tom descontraído, trazendo referencias a obras da cultura pop. O uso de variáveis como estas em outros projetos não é recomendado. ⚠️
+>
 ***
 
-## 🧮 Tópicos:
+<h2 id="topicos">🧮 Tópicos</h2>
 
 * [Declarando variáveis](https://github.com/JosManoel/Dart-Study/blob/main/topics/Variaveis.md) ✔️ 
 * [Operadores e operações](https://github.com/JosManoel/Dart-Study/blob/main/topics/Operadores_e_operacoes.md) ✔️
 * [Controle de fluxo - Estruturas condicionais](https://github.com/JosManoel/Dart-Study/blob/main/topics/Controle_de_fluxo.md) ✔️
 * [Estruturas de repetição](https://github.com/JosManoel/Dart-Study/blob/main/topics/Estruturas_de_repeticao.md) ✔️
 * [Manipulando Strings](https://github.com/JosManoel/Dart-Study/blob/main/topics/Manipulando_Strings.md) 🛠
+
 ***
-## 📚 Leitura e links recomendado:
+
+<h2 id="leitura">📚 Leitura e links recomendados</h2>
+
 * [📝 Dart - Documentação](https://dart.dev/guides)
 * [📺 Programação em Dart: Daniel Ciolfi](https://www.youtube.com/playlist?list=PLR5GUTqrcwXhVV-jNR38vfAZabkmGGKfO)
 * [🎯O que é Dart?](https://www.treinaweb.com.br/blog/o-que-e-dart)
@@ -95,5 +127,15 @@ Autor: Akira Toriyama.
 * [🎯 Introdução à programação com Dart](https://dev.to/madebyluque/introducao-a-programacao-com-dart-aji)
 
 ***
-## 🧾Licença:
+
+<h2 id="licenca">🧾Licença</h2>
+
 Este projeto está sob a licença [Apache 2.0](https://github.com/JosManoel/Dart-Study/blob/main/LICENSE).
+
+*** 
+
+<div align = "center">
+
+  👋 Feito por [JosManoel](https://github.com/JosManoel) com ☕ , 🎧 e 💻.
+
+</div>
