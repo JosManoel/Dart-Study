@@ -1,4 +1,4 @@
-<img src="images\banner.png"> 
+<img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/banner.png"> 
 
 <p>
 
@@ -34,7 +34,7 @@ void main(){
 ```
 <p align="center">
     <a href="https://dartpad.dev/?">
-        <img src="images\shield.png" height="24">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/shield.png" height="24">
     </a>
 </p>
 
