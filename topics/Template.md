@@ -8,7 +8,7 @@
   <a href="https://hakushopedia.fandom.com/pt-br/wiki/Yusuke_Urameshi">Yusuke Urameshi</a> 
 </p>
 
-Primeiramente, antes de iniciar o desenvolvimento do artigo, é interessante criar um pequeno resumo do artigo que cite brevemente o que será apresentado. Deste modo, será possível situar o leitor no tema antes de apresentá-lo aos tópicos abordados.  
+Primeiramente, antes de iniciar o desenvolvimento, é interessante criar um pequeno resumo do artigo que cite brevemente o que será apresentado. Deste modo, será possível situar o leitor no tema antes de apresentá-lo aos tópicos abordados.  
 
 ***
 <h2 id="sumario">🧮 Sumário</h2>
