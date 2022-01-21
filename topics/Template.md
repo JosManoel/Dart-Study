@@ -27,11 +27,12 @@ Caso julgue necessário incluir um exercício em dart, além de compartilha-lo n
 
 <h3 align="center">Execício dart</h3>
 
-```
+~~~dart
 void main(){
     print("UEPA");
 }
-```
+~~~
+
 <p align="center">
     <a href="https://dartpad.dev/?id=e4fc4aa1698cebc735259936fbddf6d2">
         <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/shield.png" height="24">
