@@ -15,21 +15,19 @@
 <p align="center">
   <a href="#sobre-este-projeto">👨🏻‍💻 Sobre este projeto </a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#o-que-e-dart">🎯 O que é Dart?</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#comentarios">🏷️ Comentários no Dart </a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#topicos">🧮 Tópicos</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#leitura">📚 Leitura e links recomendados</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#licenca">🧾Licença</a>
 </p>
 
 
-
 ***
 
 <h2 id = "sobre-este-projeto">👨🏻‍💻 Sobre este projeto</h2>
 
-Este repositório é foi criado com o intuito de armazenar e organizar as anotações e exercícios realizados durante o aprendizado com a linguagem Dart. O material a seguir é de uso livre, sinta-se a vontade para utilizar estas anotações em seu desenvolvimento.
+Este repositório foi criado com o intuito de armazenar e organizar as anotações e exercícios realizados durante o aprendizado com a linguagem Dart. O material a seguir é de uso livre, sinta-se a vontade para utilizar estas anotações em seu desenvolvimento ou para contribuir com o conteúdo.
 
-> Para o desenvolvimento e aprendizado desta linguagem foi utilizado o VS Code, no entanto, também é possível utilizar ferramentas online, como o [DartPad](https://dartpad.dev/).
+*  [Como posso contribuir?](https://github.com/JosManoel/Dart-Study/wiki)
 
 ***
 
@@ -67,47 +65,6 @@ void main(){
 
 ***
 
-<h2 id="comentarios">🏷️ Comentários no Dart</h2>
-
-Os comentários possuem uma importante função no código. Através dele é possível documentar trechos do código para auxiliar a compreensão do código. Aliás, dentre os 3 tipos de comentários suportados pelo Dart, existe um específico para documentação.
-### Comentando o código:
-
-* Comentários de uma única linha:
-```
-// Vamos conquistar as esferas do dragão!
-```
-
-* Comentários de multíplas linhas:
-```
-/*
-Levar pra luta a garra do vencedor
-Correr e pegar as esferas do dragão!
-São tantas maravilhas pra descobrir
-A fantástica aventura começou
-Neste mundo de emoção que você chegou!
-*/
-```
-
-* Comentário de documentação:
-
-> Os comentários de documentação podem ser de unica linha:
-
-```
-/// Musica: Vamos Conquistar As Esferas do Dragão!
-```
-
-> Ou de multiplas linhas:
-```
-/**
-Anime: Dragon Ball (Clássico).
-Autor: Akira Toriyama.
-**/
-```
-
-> ⚠️ Atenção: Boa parte das variáveis utilizadas neste repositório possuem um tom descontraído, trazendo referencias a obras da cultura pop. O uso de variáveis como estas em outros projetos não é recomendado. ⚠️
->
-***
-
 <h2 id="topicos">🧮 Tópicos</h2>
 
 * [Declarando variáveis](https://github.com/JosManoel/Dart-Study/blob/main/topics/Variaveis.md) ✔️ 
@@ -115,6 +72,10 @@ Autor: Akira Toriyama.
 * [Controle de fluxo - Estruturas condicionais](https://github.com/JosManoel/Dart-Study/blob/main/topics/Controle_de_fluxo.md) ✔️
 * [Estruturas de repetição](https://github.com/JosManoel/Dart-Study/blob/main/topics/Estruturas_de_repeticao.md) ✔️
 * [Manipulando Strings](https://github.com/JosManoel/Dart-Study/blob/main/topics/Manipulando_Strings.md) 🛠
+
+
+
+> ⚠️ **Atenção:** Boa parte das variáveis utilizadas neste repositório possuem um tom descontraído, trazendo referencias a obras da cultura pop. O uso de variáveis como estas em outros projetos não é recomendado. ⚠️
 
 ***
 
