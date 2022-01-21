@@ -33,7 +33,7 @@ void main(){
 }
 ```
 <p align="center">
-    <a href="https://dartpad.dev/?id=e4fc4aa1698cebc735259936fbddf6d2">
+    <a href="https://dartpad.dev/?id=e4fc4aa1698cebc735259936fbddf6d2" target="_blank">
         <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/shield.png" height="24">
     </a>
 </p>
