@@ -11,7 +11,7 @@
 Primeiramente, antes de iniciar o desenvolvimento, é interessante criar um pequeno resumo do artigo que cite brevemente o que será apresentado. Deste modo, será possível situar o leitor no tema antes de apresentá-lo aos tópicos abordados.  
 
 ***
-<h2 id="sumario">🧮 Sumário</h2>
+<h2>🧮 Sumário</h2>
   
   * <a href="#sumario">Adicione todos os temas abordados aqui.</a> 
   * <a href="#sumario">Assim o leitor poderá</a> 
