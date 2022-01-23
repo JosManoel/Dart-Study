@@ -1,9 +1,34 @@
-# Dart: Operadores e operações <a href = "https://dart.dev/"><img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/dart.png" width = "24"></img></a>
+<img src="https://i.imgur.com/pJqSuWm.png"> 
 
+<p>
 
-O Dart possui operadores semelhantes aos já bastante utilizados em outras linguagens, contanto com operadores aritméticos, operadores de incremento e operadores relacionais.
+**Autor:**
+  <a href="https://github.com/JosManoel">Manoel Freitas</a>
+</p>
 
-# Operadores aritméticos:
+As operações, assim como na matemática, executam ações específicas entre um ou dois operandos, conforme sua função. Alguns operadores variam em funcionalidade conforme o tipo de dado selecionado. No Dart, os operadores são semelhantes aos já bastante utilizados em outras linguagens, contanto com operadores aritméticos, operadores de incremento e operadores relacionais.
+
+***
+
+<h2>🧮 Sumário</h2>
+   
+* <a href="#operadores_aritimeticos">Operadores aritiméticos</a>
+  * <a href="#soma">Soma</a>
+  * <a href="#subtracao">Subtração</a>
+  * <a href="#multiplicacao">Multiplicação</a>
+  * <a href="#divisao">Divisão</a>
+  * <a href="#modulo">Módulo</a>
+  * <a href="#invertendo_sinais">Invertendo sinais</a>
+* <a href="#operadores_de_incremento">Operadores de incremento</a>
+  * <a href="#prefixo">Prefixo</a>
+  * <a href="#postfix">Postfix</a>
+* <a href="#operadores_relacionais">Operadores relacionais</a>
+* <a href="#licenca">🧾Licença</a>
+* <a href="#leitura_e_link">📚 Leitura e links recomendado</a>
+
+***
+
+<h2 id="operadores_aritimeticos">Operadores aritiméticos</h2>
 
 Os operadores aritméticos possuem as mesmas propriedades dos operadores utilizados comumente nas operações matemáticas do dia-a-dia, com a diferença que o operador de adição também é capaz e somar strings.
 
@@ -18,142 +43,237 @@ Os operadores aritméticos possuem as mesmas propriedades dos operadores utiliza
 |-(expressão)| Inverte o sinais de uma expressão                    |
 
 
-## Exemplo de utilização dos operadores aritméticos:
-
-### Soma
+<h2 id="soma">Soma</h2>
 
 * Você pode realizar a soma direto na atribução do valor da variável.
 
-```
-var soma = 90843 + 86170; // = 177013
-print(soma);
-// Saida: 177013
-```
 
-* Também é possível realizar a soma posteriormente:
+<h3 align="center">Operação de soma</h3>
 
-```
-var numero1 = 3000;
-var numero2 = 2500;
-print(numero1 + numero2);
-// Saida: 5500
-```
-* Somando strings:
+~~~dart
+void main(){ 
+  var soma = 12 + 24; // = 36
+  print(soma);
+  // Saida: 36
 
-```
-// Somando strings no print:
+  // Também é possível realizar a soma posteriormente:
 
-print("Aprendendo " + "dart " + "para " + "usar " + "no " + "Flutter");
-// Saida: Aprendendo dart para usar no Flutter
+  var numero1 = 3000;
+  var numero2 = 2500;
+  print(numero1 + numero2);
+  // Saida: 5500
+}
+~~~
 
-// Somando strings de variaveis:
-var titulo = "As aventuras de TIN-TIN";
-var subtitulo = "O carangueijo das Pinças de ouro";
+<p align="center">
+    <a href="https://dartpad.dev/?id=16ce763deeda85641030d0372a1eda92">
+        <img src="https://i.imgur.com/6k2HyUP.png" height="24">
+    </a>
+</p>
 
-print(titulo + " Episodio: " + subtitulo);
-// Saida: As aventuras de TIN-TIN Episodio: O carangueijo das Pinças de ouro
-```
-> Todos esses métodos de realizar operações com dados, com exceção da soma de strings, também são presentes nos outros operadores.
+<h3 align="center">Somando strings</h3>
 
-### Subtração
+~~~dart
+void main(){
+  // Somando strings no print:
 
-* Subtraindo valores:
-```
-var sub = 57 - 15; // = 42
-print(sub);
-// Saida: 42
+  print("Aprendendo " + "dart " + "para " + "usar " + "no " + "Flutter");
+  // Saida: Aprendendo dart para usar no Flutter
 
-var numero1 = 456;
-var numero2 = 123;
-print(numero1 - numero2);
-// Saida: 333
-```
-### Multiplicação
+  // Somando strings de variaveis:
+  var titulo = "As aventuras de TIN-TIN";
+  var subtitulo = "O carangueijo das Pinças de ouro";
 
-* Multiplicação de valores:
-```
-var mult = 26 * 45; // = 1170
-print(mult);
-// Saida: 1170
+  print(titulo + " Episodio: " + subtitulo);
+  // Saida: As aventuras de TIN-TIN Episodio: O carangueijo das Pinças de ouro
+}
+~~~
 
-var numero1 = 456;
-var numero2 = 123;
-print(numero1 - numero2);
-// Saida: 333
-```
-### Divisão
+<p align="center">
+    <a href="https://dartpad.dev/?id=431ed119a4e2624fe86818fcec69a4d0">
+        <img src="https://i.imgur.com/oNy4KAY.png" height="24">
+    </a>
+</p>
 
-* Divisão de valores:
-```
-var divi = 45 / 15; // = 3
-print(divi);
-// Saida: 3
 
-var numero1 = 234;
-var numero2 = 120;
-print(numero1 / numero2);
-// Saida: 1.95
-```
-* Obtendo apenas a parte inteira da divisão:
+<h2 id="subtracao">Subtração</h2>
 
-```
-var numero1 = 234;
-var numero2 = 120;
-print(numero1 / numero2);
-// Saida: 1
-```
+<h3 align="center">Subtraindo valores</h3>
 
-### Módulo 
-* Retornando apenas o resto da divisão:
-```
-var numero1 = 5;
-var numero2 = 2;
-print(numero1 % numero2);
-// Saida: 1
-```
-### Invertendo sinais
+~~~dart
+void main(){
+  var sub = 57 - 15; // = 42
+  print(sub);
+  // Saida: 42
 
-> A inversão de sinais é semelhante ao já utilizado em cálculos, onde basta colocar o sinal de subtração a frente da operação.
+  var numero1 = 456;
+  var numero2 = 123;
+  print(numero1 - numero2);
+  // Saida: 333
+}
+~~~
 
-```
-var inver = -(-2);
-print(inver);
-// Saida: 2
-```
+<p align="center">
+    <a href="https://dartpad.dev/?id=2a8ba58a4dc726f82903a00595526e7e">
+        <img src="https://i.imgur.com/JD3klOy.png" height="24">
+    </a>
+</p>
+
+<h2 id="multiplicacao">Multiplicação</h2>
+
+<h3 align="center">Multiplicação de valores</h3>
+
+~~~dart
+void main(){
+  var mult = 26 * 45; // = 1170
+  print(mult);
+  // Saida: 1170
+
+  var numero1 = 456;
+  var numero2 = 123;
+  print(numero1 - numero2);
+  // Saida: 333
+}
+~~~
+
+<p align="center">
+    <a href="https://dartpad.dev/?id=2dc1089b8ab6693d0e85129b71c81f58">
+        <img src="https://i.imgur.com/2upiQRu.png" height="24">
+    </a>
+</p>
+
+
+<h2 id="divisao">Divisão</h2>
+
+<h3 align="center">Divisão de valores</h3>
+
+~~~dart
+void main(){
+  var divi = 45 / 15; // = 3
+  print(divi);
+  // Saida: 3
+
+  var numero1 = 234;
+  var numero2 = 120;
+  print(numero1 / numero2);
+  // Saida: 1.95
+}
+~~~
+
+<p align="center">
+    <a href="https://dartpad.dev/?id=c131501144e17723e1d76043ec2e2bc1">
+        <img src="https://i.imgur.com/XMzTKe1.png" height="24">
+    </a>
+</p>
+
+
+<h3 align="center">Obtendo apenas a parte inteira da divisão</h3>
+
+~~~dart
+void main(){
+  var numero1 = 234;
+  var numero2 = 120;
+  print(numero1 ~/ numero2);
+  // Saida: 1
+}
+~~~
+
+<p align="center">
+    <a href="https://dartpad.dev/?id=9d4279013613130a4348cc7ad52a6a64">
+        <img src="https://i.imgur.com/ZXaSamu.png" height="24">
+    </a>
+</p>
+
+
+<h2 id="modulo">Módulo</h2>
+
+<h3 align="center">Retornando apenas o resto da divisão</h3>
+
+~~~dart
+void main(){
+  var numero1 = 5;
+  var numero2 = 2;
+  print(numero1 % numero2);
+  // Saida: 1
+}
+~~~
+
+<p align="center">
+    <a href="https://dartpad.dev/?id=d8f1879c82184a6e60886c5765bd0d99">
+        <img src="https://i.imgur.com/rvpRHl4.png" height="24">
+    </a>
+</p>
+
+
+<h2 id="invertendo_sinais">Invertendo sinais</h2>
+
+A inversão de sinais é semelhante ao já utilizado em cálculos, onde basta colocar o sinal de subtração a frente da operação.
+
+<h3 align="center">Invertendo os sinais</h3>
+
+~~~dart
+void main(){
+  var inver = -(-2);
+  print(inver);
+  // Saida: 2
+}
+~~~
+
+<p align="center">
+    <a href="https://dartpad.dev/?id=77236e7ce30df202f083c2a03ce33451">
+        <img src="https://i.imgur.com/lXH9Iai.png" height="24">
+    </a>
+</p>
+
 ***
-# Operadores de incremento
-Os operadores de incremento são utilizados para diminuir ou incrementar uma variável em **1 unidade**. Normalmente são utilizados em laços como o for, que será abordado posteriormente. Os operadores de incremento são dividos em **prefixo** e **postfix**.
 
-Exemplo:
-```
-// Incremento: ++
-variavel++;
-// adiciona +1 a variavel
+<h2 id="operadores_de_incremento">Operadores de incremento</h2>
 
-// Decremento: --
-variavel--;
-// retira -1 da variavel
-```
+Os operadores de incremento são utilizados para diminuir ou incrementar uma variável em **1 unidade**. Normalmente são utilizados em laços como o for, que será abordado posteriormente. Os operadores de incremento são dividos em **prefixo**, que altera a variável antes de avaliar a expressão de condição, e o **postfix**, que altera a variável após avaliar a expressão de condição.
 
-## Prefixo
-Altera a variável antes de avaliar a expressão de condição.
-```
-++variavel; // Incremento
---variavel; // Decremento
-```
 
-## Postfix
-Altera a variável após avaliar a expressão de condição.
-```
-variavel++; // Incremento
-variavel--; // Decremento
-```
+<h3 align="center">Prefixo</h3>
+
+~~~dart
+void main(){
+  var variavel;
+  ++variavel; // Incremento
+  --variavel; // Decremento
+}
+~~~
+
+<p align="center">
+    <a href="https://dartpad.dev/?id=f5c1bba79853e0e5f5e4bdf350b554f4">
+        <img src="https://i.imgur.com/LuFA6jB.png" height="24">
+    </a>
+</p>
+
+<h3 align="center">Postfix</h3>
+
+~~~dart
+void main(){
+  var variavel;
+  variavel++; // Incremento
+  variavel--; // Decremento
+}
+~~~
+
+<p align="center">
+    <a href="https://dartpad.dev/?id=a2294e0023377d3903ded95c5e7725d6">
+        <img src="https://i.imgur.com/M2sg4Vs.png" height="24">
+    </a>
+</p>
+
 ***
-# Operadores relacionais
+
+<h2 id="operadores_relacionais">Operadores relacionais</h2>
+
 
 Os operadores relacionais são destinados a comparações entre fatores, normalmente utilizados em condicionais, que serão abordados posteriormente. Os operadores relacionais retornam valores booleanos (**true**/**false**).
 
-### Operadores relacionais:
+
+<h3 align="center">Operadores relacionais</h3>
+
 |Operador | Descrição                                                        |
 |---------|------------------------------------------------------------------|
 |  ==     | Igual.                                                           |
@@ -170,65 +290,79 @@ Os operadores relacionais são destinados a comparações entre fatores, normalm
 
 > A utilização destes operadores será melhor abordada no tópico sobre operadores condicionais.
 
-Exemplo:
 
-```
-var arroz = 1;
-var feijao = 2;
-var verdadeiro = true;
-var falso = false;
+<h3 align="center">Utilização dos operadores relacionais</h3>
 
-// Operador: ==
-print(arroz == feijao); 
-// Saida: false
+~~~dart
+void main(){
+  var arroz = 1;
+  var feijao = 2;
+  var verdadeiro = true;
+  var falso = false;
 
-// Operador: !=
-print(arroz != feijao); 
-// Saida: true
+  // Operador: ==
+  print(arroz == feijao); 
+  // Saida: false
 
-// Operador: >
-print(arroz > feijao); 
-// Saida: false
+  // Operador: !=
+  print(arroz != feijao); 
+  // Saida: true
 
-// Operador: <
-print(arroz < feijao); 
-// Saida: true
+  // Operador: >
+  print(arroz > feijao); 
+  // Saida: false
 
-// Operador: <=
-print(arroz <= feijao); 
-// Saida: true
+  // Operador: <
+  print(arroz < feijao); 
+  // Saida: true
 
-// Operador: >=
-print(arroz >= feijao); 
-// Saida: false
+  // Operador: <=
+  print(arroz <= feijao); 
+  // Saida: true
 
-// Operador logico: &&
-print(verdadeiro && falso);
-// Saida: false
+  // Operador: >=
+  print(arroz >= feijao); 
+  // Saida: false
 
-// Operador logico: ||
-print(verdadeiro || falso);
-// Saida: true
+  // Operador logico: &&
+  print(verdadeiro && falso);
+  // Saida: false
 
-// Operador logico: !
-print(!verdadeiro);
-// Saida: falso
+  // Operador logico: ||
+  print(verdadeiro || falso);
+  // Saida: true
 
-// Operador logico: is
-print(verdadeiro is bool); 
-// Saida: true
+  // Operador logico: !
+  print(!verdadeiro);
+  // Saida: falso
 
-// Operador
-print(verdadeiro is! int);
-// Saida: true
-```
+  // Operador logico: is
+  print(verdadeiro is bool); 
+  // Saida: true
+
+  // Operador
+  print(verdadeiro is! int);
+  // Saida: true
+}
+~~~
+
+<p align="center">
+    <a href="https://dartpad.dev/?id=87e38dd4c9f8ca9fb532e4d929d7f8f4">
+        <img src="https://i.imgur.com/IMAodDj.png" height="24">
+    </a>
+</p>
+
 ***
-## 📚 Leitura e links recomendado:
+
+<h2 id="leitura_e_link">📚 Leitura e links recomendado</h2>
+
 * [📝 Dart - Documentação](https://dart.dev/guides)
 * [🎯 Introdução à programação com Dart](https://dev.to/madebyluque/introducao-a-programacao-com-dart-aji)
 * [🎯 Linguagem Dart: operadores](https://www.devmedia.com.br/linguagem-dart-operadores/40724)
 * [🎯 Video: Realizando Operações Aritméticas](https://www.youtube.com/watch?v=mp7lNJH8Ws0&list=PLR5GUTqrcwXhVV-jNR38vfAZabkmGGKfO&index=3)
 * [🎯 Video: Realizando Operações Lógicas](https://www.youtube.com/watch?v=1QQhZ61dg9k&list=PLR5GUTqrcwXhVV-jNR38vfAZabkmGGKfO&index=4)
+
 ***
-## 🧾Licença:
+<h2 id="licenca">🧾Licença</h2>
+
 Este projeto está sob a licença [Apache 2.0](https://github.com/JosManoel/Dart-Study/blob/main/LICENSE).
