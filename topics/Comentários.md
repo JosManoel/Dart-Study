@@ -19,6 +19,8 @@ Esse método ainda pode ser utilizado para criar pequenas anotações, muito pre
   * <a href="#comentarios_documentação">💬 Comentários de documentação</a> 
     * <a href="comentario_linha_unica_documentacao">Comentários de documentação: Linha única</a>
     * <a href="comentario_multipla_linha_documentacao">Comentários de documentação: Múltiplas linhas</a>
+  * <a href="#leitura_e_link">📚 Leitura e links recomendado</a>
+  * <a href="#licenca">🧾Licença</a>
 
 ***
 
@@ -111,13 +113,15 @@ Autor: Akira Toriyama.
 > Sua visualização só é suportadas em ferramentas de edição de código mais completas, como o VS Studio.
 
 ***
-<h2 id="exemplo"> 📚 Leitura e links recomendados </h2>
+
+<h2 id="leitura_e_link">📚 Leitura e links recomendado</h2>
 
 * [🎯 AIntrodução à programação com Dart](https://dev.to/cephalopodluke/introducao-a-programacao-com-dart-aji)
 * [🎯 APRENDE DART: COMENTARIOS EN DART](https://dartgoogle.wordpress.com/2014/06/09/google-dart-comentarios-dart/)
 * [🎯 Comentários de Documentação no Dart](https://medium.com/@leonardopaim/coment%C3%A1rios-de-documenta%C3%A7%C3%A3o-no-dart-d3deeeb1bc72#:~:text=O%20Dart%20possui%20uma%20forma,com%20muitas%20dicas%20de%20utiliza%C3%A7%C3%A3o.)
 
 ***
-<h2 id="exemplo"> 🧾Licença </h2>
+
+<h2 id="licenca">🧾Licença</h2>
 
 Este projeto está sob a licença [Apache 2.0](https://github.com/JosManoel/Dart-Study/blob/main/LICENSE).
