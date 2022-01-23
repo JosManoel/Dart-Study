@@ -237,4 +237,4 @@ No Switch/Case também fazemos uso da palavra **break**. O break é utilizado pa
 
 <h2 id="licenca">🧾Licença</h2>
 
-Este projeto está sob a licença [Apache 2.0](https://api.flutter.dev/flutter/dart-core/num/toString.html).
+Este projeto está sob a licença [Apache 2.0](https://github.com/JosManoel/Dart-Study/blob/main/LICENSE).
