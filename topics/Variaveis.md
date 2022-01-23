@@ -24,7 +24,7 @@ Uma variável é, basicamente, um espaço alocado na memória do computador para
 * <a href="#dynamic">Dynamic</a>
 * <a href="#leitura_e_link">📚 Leitura e links recomendado</a>
 * <a href="#licenca">🧾Licença</a>
-* 
+
 ***
 
 <h2 id="numbers">Numbers</h2>
