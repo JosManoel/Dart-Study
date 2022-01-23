@@ -363,7 +363,6 @@ void main(){
 
 <h2 id="licenca">🧾Licença</h2>
 
-## 🧾Licença:
 Este projeto está sob a licença [Apache 2.0](https://github.com/JosManoel/Dart-Study/blob/main/LICENSE).
 
 
