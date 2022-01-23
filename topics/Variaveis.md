@@ -22,7 +22,9 @@ Uma variável é, basicamente, um espaço alocado na memória do computador para
 * <a href="#sets">Sets</a>
 * <a href="#var">Var</a>
 * <a href="#dynamic">Dynamic</a>
-
+* <a href="#leitura_e_link">📚 Leitura e links recomendado</a>
+* <a href="#licenca">🧾Licença</a>
+* 
 ***
 
 <h2 id="numbers">Numbers</h2>
@@ -347,7 +349,9 @@ void main(){
 </p>
 
 ***
-## 📚 Leitura e links recomendado:
+
+<h2 id="leitura_e_link">📚 Leitura e links recomendado</h2>
+
 * [📝 Dart - Documentação](https://dart.dev/guides)
 * [🎯 Dart Iniciante: Variáveis](https://www.flutterbrasil.com/12-dart-iniciante-variaveis)
 * [🎯 Dart Intermediário: Maps e List](https://www.flutterbrasil.com/23-dart-intermediario-maps-e-list)
@@ -356,6 +360,9 @@ void main(){
 * [🎯 Video: Declarando e Modificando Variáveis](https://www.youtube.com/watch?v=wMS3DO0jL0I&list=PLR5GUTqrcwXhVV-jNR38vfAZabkmGGKfO&index=2)
 
 ***
+
+<h2 id="licenca">🧾Licença</h2>
+
 ## 🧾Licença:
 Este projeto está sob a licença [Apache 2.0](https://github.com/JosManoel/Dart-Study/blob/main/LICENSE).
 
