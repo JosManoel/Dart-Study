@@ -39,27 +39,31 @@ Dart é uma linguagem orientada à objetos fortemente tipada¹ que pode ser util
 
 O Dart tem uma sintaxe baseada na linguagem C, deste modo, sua escrita se faz semelhante a linguagens populares, como o Java. No entanto, o Dart busca minimizar alguns "ruídos", priorizando um código mais limpo. Como exemplo, podemos vê este simples Hello World, que necessita de poucas linhas de código, quando comparada as linguagens citadas anteriormente.
 
-```
+~~~dart
+
 void main() {
   print("Hello World!");
 }
-```
+~~~
 
 O Dart possui uma função principal denominada main, onde através dela, todo o código é iniciado. O Dart é uma linguagem case-sensitive, por isso, deve-se tomar cuidado ao escrever o código, para evitar possíveis erros.
 
 A exemplo disso, temos o seguinte código, que ira gerar um erro, pois o Dart não reconhece uma função chamada **P**rint.
-```
+
+~~~dart
+
 void main(){
     Print("Hello");
 }
-```
+~~~
 Sua versão correta seria:
 
-```
+~~~dart
+
 void main(){
     print("Hello");
 }
-```
+~~~
 
 > Toda linha de código escrita em Dart é terminada em ; (ponto e virgula).
 
@@ -76,7 +80,7 @@ void main(){
 
 
 
-> ⚠️ **Atenção:** Boa parte das variáveis utilizadas neste repositório possuem um tom descontraído, trazendo referencias a obras da cultura pop. O uso de variáveis como estas em outros projetos não é recomendado. ⚠️
+> ⚠️ Boa parte das variáveis utilizadas neste repositório possuem um tom descontraído, trazendo referencias a obras da cultura pop. O uso de variáveis como estas em outros projetos não é recomendado. ⚠️
 
 ***
 
