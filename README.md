@@ -71,12 +71,15 @@ void main(){
 
 <h2 id="topicos">🧮 Tópicos</h2>
 
+<h3>Iniciante</h3>
 * [Declarando variáveis](https://github.com/JosManoel/Dart-Study/blob/main/topics/Variaveis.md) ✔️ 
 * [Comentários](https://github.com/JosManoel/Dart-Study/blob/main/topics/Coment%C3%A1rios.md) ✔️
 * [Operadores e operações](https://github.com/JosManoel/Dart-Study/blob/main/topics/Operadores_e_operacoes.md) ✔️
 * [Controle de fluxo - Estruturas condicionais](https://github.com/JosManoel/Dart-Study/blob/main/topics/Controle_de_fluxo.md) ✔️
 * [Estruturas de repetição](https://github.com/JosManoel/Dart-Study/blob/main/topics/Estruturas_de_repeticao.md) ✔️
-* [Manipulando Strings](https://github.com/JosManoel/Dart-Study/blob/main/topics/Manipulando_Strings.md) 🛠
+* [Manipulando Strings](https://github.com/JosManoel/Dart-Study/blob/main/topics/Manipulando_Strings.md) ✔️
+<h3>Médio</h3>
+<h3>Avançado</h3>
 
 
 
