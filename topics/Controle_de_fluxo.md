@@ -108,7 +108,7 @@ void main(){
     </a>
 </p>
 
-> Atente-se a necessidade do seu código, se esta estrutura for necessária, talvez seja melhor utilizar um switch/case.
+> Atente-se a necessidade do seu código. Se esta estrutura for necessária, talvez seja melhor utilizar um switch/case.
 
 > O ".toString()", utilizado no código acima é uma função que converte uma variável para uma String. Esta função será abordada melhor num futuro tópico.
 
@@ -180,6 +180,7 @@ void main(){
     </a>
 </p>
 
+***
 
 <h2 id="switch_case">Switch/Case</h2>
 

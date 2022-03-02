@@ -506,7 +506,8 @@ void main(){
     </a>
 </p>
   
- 
+***
+
 <h3 id="problema_do_String">Problemas ao Utilizar a String: Utilização de Emojis</h3>
 
 Como informado acima, o Dart, assim como outras linguagens criadas antes da popularização dos emojis, utiliza uma sequência de unidades de código UTF-16, trazendo algumas particularidades ao uso de caracteres especiais. 

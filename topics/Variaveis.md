@@ -102,7 +102,7 @@ As runas são uma categoria de string com uma importante funcionalidade acrescen
     </a>
 </p>
 
-> Esta função pode gerar alguns erros no DartPad.
+> Esta função pode gerar alguns erros no DartPad devido a falta de suporte a alguns emojis.
 
 <h2 id="boolean">Boolean</h2>
 
@@ -364,5 +364,3 @@ void main(){
 <h2 id="licenca">🧾Licença</h2>
 
 Este projeto está sob a licença [Apache 2.0](https://github.com/JosManoel/Dart-Study/blob/main/LICENSE).
-
-
