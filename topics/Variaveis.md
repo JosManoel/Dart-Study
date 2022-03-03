@@ -22,6 +22,9 @@ Uma variável é, basicamente, um espaço alocado na memória do computador para
 * <a href="#sets">Sets</a>
 * <a href="#var">Var</a>
 * <a href="#dynamic">Dynamic</a>
+* <a href="#imutablidade">Modificadores de imutablidade no Dart</a>
+    * <a href="#const">Const</a>
+    * <a href="#final">Final</a>
 * <a href="#leitura_e_link">📚 Leitura e links recomendado</a>
 * <a href="#licenca">🧾Licença</a>
 
@@ -52,6 +55,8 @@ void main(){
         <img src="https://i.imgur.com/VN7D0R0.png" height="24">
     </a>
 </p>
+
+> O conjunto de variáveis do tipo number possui outros diversos métodos e acesso a bibliotecas que serão abordados em um futuro tópico.
 
 <h2 id="strings">Strings</h2>
 
@@ -184,6 +189,24 @@ void main(){
 
 > Outro ponto importante é que utilizamos o tipo de variável **var**, este tipo é como um "coringa" dentro do dart e será documentado mais a frente.
 
+As listas podem ser do tipo **fixed** ou **growable**. No tipo **fixed**, a lista permanece com os mesmo valores de quando declarada inicialmente, não sofrendo nenhuma adição ou remoção de valores. Já no tipo **growable** a lista é incrementada conforme a execução do código, com novos elementos sendo adicionados através do método **.add(** _value_ **)**.
+
+<h3 align="center">Diferenças na implementação de uma lista do tipo fixed e growable</h3>
+
+~~~dart
+
+void main(){
+  // Criando uma List do tipo fixed
+  var lista_de_animes = ["Yu Yu Hakusho", "Cowboy Bebop", "Trigun", "One Piece", "Dragon Ball"];
+
+  // Criando uma list do tipo growable
+  var list_name = new List() 
+  
+ }
+~~~
+
+> Perceba que mesmo sendo inicialmente uma list do tipo fixed, não existem grandes diferenças na sua implementação prática, podendo ser incrementada durante a execução do código. Desde modo, a classificação de uma list em _fixed_ ou _growable_ é apenas uma classificação arbitrária.
+
 Para verificar a quantidade de itens contidos em uma lista, que seria o seu tamanho, utilizamos o length, que retorna a quantidades de itens.
 
 
@@ -297,6 +320,8 @@ void main(){
 
 > Veja que por mais que exista **3** dragãos brancos, apenas **1** será retornado, já que elementos duplicados não são considerados.
 
+> As coleções de objetos do tipo Set podem ser iteradas de outras 3 diferentes formas, sendo elas a _HashSet_, _LinkedHashSet_ e _SplayTreeSet_, que serão abordadas de maneira aprofundada posteriormente.
+
 
 <h2 id="var"> Var</h2>
 
@@ -350,12 +375,77 @@ void main(){
 
 ***
 
+<h2 id="imutablidade">Modificadores de imutabilidade no Dart</h2>
+
+Durante o desenvolvimento de códigos naturalmente surge a necessidade de garantir a integridade dos valores de certas variáveis, de modo a proteger seus dados. Para facilitar esse processo, a maioria das linguagens de programação atuais dispõe de modificadores de imutabilidade, que auxiliam na implementação de variáveis constantes. No desenvolvimento com o Dart possuímos dois modificadores de imutabilidade, sendo eles o **const** e o **final**.
+
+<h2 id="const">Const</h2>
+
+O modificador **const** possui a função de definir um objeto como constante, impedindo que seu valor seja modificado após sua inicialização. Deste modo, o valor da variável deve ser atribuído no momento de sua implementação. 
+
+<h3 align="center">Utilizando o modificador const</h3>
+
+~~~dart
+void main(){
+  // Declarando uma variável constante
+  const String name = "Bojji";
+  print(name);
+
+  /* 
+    Ao atribuir um novo valor para uma variável declarada como const será
+    retornado um erro e seu valor permanecerá o mesmo.
+  */
+  name = "Despa";
+  print(name);
+}
+~~~
+
+<p align="center">
+    <a href="https://dartpad.dev/?id=c9e974384465cf4f939a2e585dbedd30">
+        <img src="https://i.imgur.com/4p8Y3F6.png" height="24">
+    </a>
+</p>
+
+<h2 id="final">Final</h2>
+
+O modificador **final** tem uma funcionalidade semelhante ao const, porém ao utilizar este método é possível atribuir o valor após a inicialização da variável, ideal para casos onde a variável precisa ser declarada antes de possuir um valor.
+
+<h3 align="center">Utilizando o modificador final</h3>
+
+~~~dart
+void main(){
+
+  // Declarando uma variável com modificador final
+  final String jojo;
+  // Declarando uma variável com modificador const
+  const String jojobro;
+
+  jojo = "Joseph";    // a atribuição funciona corretamente
+  jojobro = "Caesar"; // a atribuição retorna um erro
+
+  print(jojo);    // a variável é exibida corretamente
+  print(jojobro); // ocorre um erro de atribuição
+
+}
+~~~
+
+<p align="center">
+    <a href="https://dartpad.dev/?id=fd4b16b16bfd2a3d56c68c7eaa376a78">
+        <img src="https://i.imgur.com/Kj4Cibk.png" height="24">
+    </a>
+</p>
+
+> Note que, apesar de ter seu valor atribuído após sua inicialização, o modificador final ainda protege a variável de futuras modificações, não sendo possível atribuir um novo valor após sua primeira atribuição.
+
+***
+
 <h2 id="leitura_e_link">📚 Leitura e links recomendado</h2>
 
 * [📝 Dart - Documentação](https://dart.dev/guides)
 * [🎯 Dart Iniciante: Variáveis](https://www.flutterbrasil.com/12-dart-iniciante-variaveis)
 * [🎯 Dart Intermediário: Maps e List](https://www.flutterbrasil.com/23-dart-intermediario-maps-e-list)
 * [🎯 Sintaxe Dart: Tipos (não tão) primitivos](https://www.devmedia.com.br/sintaxe-dart-tipos-nao-tao-primitivos/40368)
+* [🎯 Qual a diferença entre Static, Const e Final no Dart](https://www.alura.com.br/artigos/diferenca-entre-static-const-final-no-dart)
 * [🎯 Introdução à programação com Dart](https://dev.to/madebyluque/introducao-a-programacao-com-dart-aji)
 * [🎯 Video: Declarando e Modificando Variáveis](https://www.youtube.com/watch?v=wMS3DO0jL0I&list=PLR5GUTqrcwXhVV-jNR38vfAZabkmGGKfO&index=2)
 
