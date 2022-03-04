@@ -17,6 +17,9 @@ As estruturas de repetições são pequenos artifícios presentes na grande maio
  * <a href="#map">map() - manipulação de listas</a>
  * <a href="#while">While - Interações não predefinidas</a>
  * <a href="#do_while">Do/While - Uma segunda forma de utilizar o While</a>
+ * <a href="#controle">Declarações de controle</a>
+    * <a href="#break">Break</a>
+    * <a href="#continue">Continue</a>
  * <a href="#leitura_e_link">📚 Leitura e links recomendado</a>
  * <a href="#licenca">🧾Licença</a>
 
@@ -244,8 +247,79 @@ Golpe especial!
  
 > No exemplo anterior o Ki será carregado apenas se o valor inicial for menor que 10. Caso a variável seja iniciada com o valor 10, não será necessário carregar o Ki.
 
+***
+
+
+<h2 id="controle">Declarações de controle</h2>
+
+Durante a utilização dos laços mencionados acima é comum que seja necessário implementar outras formas de controle do fluxo, além das que já estão implantadas na estrutura do loop. Para sanar esta necessidade, o dart possui compatibilidade com duas categorias de instruções de controle de fluxo, sendo elas o **break** e o **continue**.
+
+<h2 id="break">Break</h2>
+
+O comando **break** possui a função de interromper o fluxo do loop de maneira imediata, retornando o fluxo de controle para fora do laço mesmo que a condição de parada ainda não tenha sido atingida. Através dele é possível encerrar a execução do loop sempre que necessário.
+
+<h3 align="center">Utilização do break </h3>
+
+
+~~~dart
+void main(){
+    var count = 1;
+
+    while (count <= 4){
+        print("Canon: Goku SSJ" + count.toString());
+
+        if( count == 3){
+            break; 
+        }
+
+        count++;
+    }
+}
+~~~
+
+<p align="center">
+    <a href="https://dartpad.dev/?id=5eb89916bb9d17ff3b80996099e4d7b8">
+        <img src="https://i.imgur.com/5DhwIT0.png" height="24">
+    </a>
+</p>
+
+> Perceba que o loop é encerrado antes da sua condição de parada original, que seria quando a variável "count" atingisse o valor 4.
+
+
+<h2 id="continue">Continue</h2>
+
+O continue possui uma função semelhante ao **break**, porém ao invés de interromper o laço inteiro ela interrompe apenas uma execução, pulando para a próxima iteração.
+
+<h3 align="center">Utilização do continue</h3>
+
+
+~~~dart
+void main(){
+    var count = 0;
+
+    while (count < 4){
+      count++;
+
+      if(count == 2){
+        print("pulou");
+        continue;
+      }
+
+      print("Goku SSJ" + count.toString());
+    }
+}
+~~~
+
+<p align="center">
+    <a href="https://dartpad.dev/?id=e11ff244a38ed322906ab2d30d0f3e91">
+        <img src="https://i.imgur.com/fUEltlF.png" height="24">
+    </a>
+</p>
+
+> Observe que o texto "Goku SSJ2" não é mostrado, já que seu ciclo é encerrado antes desta ação ocorrer.
 
 ***
+
 <h2 id="leitura_e_link">📚 Leitura e links recomendado</h2>
 
 * [📝 Dart - Documentação](https://dart.dev/guides)
@@ -260,6 +334,7 @@ Golpe especial!
 * [🎯 Diferença entre while e for](https://pt.stackoverflow.com/questions/61491/diferen%C3%A7a-entre-while-e-for)
 * [🎯 Quando utilizar os métodos “map()” ou “toList()”?](https://pt.stackoverflow.com/questions/403324/quando-utilizar-os-m%c3%a9todos-map-ou-tolist)
 * [🎯 Você sabe utilizar um mapa? {Dart}](https://www.linkedin.com/pulse/voc%C3%AA-sabe-utilizar-um-mapa-dart-fellipe-malta/?originalSubdomain=pt)
+* [🎯 DART - DECLARAÇÕES DE CONTROLE DE LOOP (INTERROMPER E CONTINUAR)](https://acervolima.com/dart-declaracoes-de-controle-de-loop-interromper-e-continuar/)
 * [🎯 Video: Realizando Repetições (Loops)](https://www.youtube.com/watch?v=PAv1k0z4wrI&list=PLR5GUTqrcwXhVV-jNR38vfAZabkmGGKfO&index=8)
 ***
 
