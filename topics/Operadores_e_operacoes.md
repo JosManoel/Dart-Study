@@ -25,8 +25,8 @@ As operações, assim como na matemática, executam ações específicas entre u
   * <a href="#prefixo">Prefixo</a>
   * <a href="#postfix">Postfix</a>
 * <a href="#operadores_relacionais">Operadores relacionais</a>
-* <a href="#licenca">🧾Licença</a>
 * <a href="#leitura_e_link">📚 Leitura e links recomendado</a>
+* <a href="#licenca">🧾Licença</a>
 
 ***
 
