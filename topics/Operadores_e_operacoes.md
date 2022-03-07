@@ -457,9 +457,10 @@ void main(){
 * [📝 Dart - Documentação](https://dart.dev/guides)
 * [🎯 Introdução à programação com Dart](https://dev.to/madebyluque/introducao-a-programacao-com-dart-aji)
 * [🎯 Linguagem Dart: operadores](https://www.devmedia.com.br/linguagem-dart-operadores/40724)
+* [🎯 Null-aware operators](https://dart.dev/codelabs/dart-cheatsheet#null-aware-operators)
 * [🎯 Video: Realizando Operações Aritméticas](https://www.youtube.com/watch?v=mp7lNJH8Ws0&list=PLR5GUTqrcwXhVV-jNR38vfAZabkmGGKfO&index=3)
 * [🎯 Video: Realizando Operações Lógicas](https://www.youtube.com/watch?v=1QQhZ61dg9k&list=PLR5GUTqrcwXhVV-jNR38vfAZabkmGGKfO&index=4)
-
+* [🎯 Video: Dart - Curso Completo: Operadores de Atribuição (Operators)](https://www.youtube.com/watch?v=EE3Jzhjb1A0)
 ***
 <h2 id="licenca">🧾Licença</h2>
 
