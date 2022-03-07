@@ -321,7 +321,7 @@ void main(){
     </a>
 </p>
 
-> Caso já tenha visto o tópico sobre operadores ternários, poderá notar alguma semelhança com o funcionamento do null-aware, pois ambos podem ser usados para o tratamento de valores nulos. Cabe ao desenvolvedor determinar qual o método mais apropriado para o seu caso.
+> Caso já tenha visto o tópico sobre [operadores ternários](https://github.com/JosManoel/Dart-Study/blob/main/topics/Controle_de_fluxo.md#operador_ternario), poderá notar alguma semelhança com o funcionamento do null-aware, pois ambos podem ser usados para o tratamento de valores nulos. Cabe ao desenvolvedor determinar qual o método mais apropriado para o seu caso.
 
 ***
 
