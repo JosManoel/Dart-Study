@@ -19,6 +19,8 @@ As operações, assim como na matemática, executam ações específicas entre u
   * <a href="#divisao">Divisão</a>
   * <a href="#modulo">Módulo</a>
   * <a href="#invertendo_sinais">Invertendo sinais</a>
+* <a href="#operadores_de_atribuicao">Operadores de atribuição</a>
+  * <a href="#atribuicao_null">Tratamento de valores nulos</a>
 * <a href="#operadores_de_incremento">Operadores de incremento</a>
   * <a href="#prefixo">Prefixo</a>
   * <a href="#postfix">Postfix</a>
@@ -224,6 +226,102 @@ void main(){
         <img src="https://i.imgur.com/lXH9Iai.png" height="24">
     </a>
 </p>
+
+***
+
+<h2 id="operadores_de_atribuicao">Operadores de atribuição</h2>
+
+Os operadores de atribuição permitem conferir um valor a uma variável, podendo ser combinado com diversos outros operadores para a construção de instruções abreviadas. 
+
+<h3 align="center">Operadores de atribuição</h3>
+
+|Operador | Descrição                                                        |
+|---------|------------------------------------------------------------------|
+|  =      | Utilizado para atribuir um valor a uma variável.                 |
+|  +=     | Soma um valor ao dado já existente na variável.                  |
+|  -=     | Subtrai um valor ao dado já existente na variável.               |
+|  *=     | Multiplica um valor ao dado já existente na variável.            |
+|  /=     | Divide o valor já existente na variável pelo valor informado.    |
+|  %=     | Atribui o resto da divisão entre o valor já existente e o valor informado. |
+|  ~/=     | Atribui o resultado de uma divisão entre o valor já existente e o valor informado, porém arredondado para baixo. |
+|  ??=   | Atribui um valor caso o dado existente na variável seja nulo.     | 
+
+<h3 align="center">Utilizando os operadores de atribuição</h3>
+
+~~~dart
+void main(){
+  var mortes_kuririn;
+  
+  print("Operador de atribuição '='");
+  mortes_kuririn = 5;
+  print("N° de mortes de Kuririn: ${mortes_kuririn} \n"); // 5
+
+  print("Operador de atribuição '+='");
+  mortes_kuririn += 2;
+  print("N° de mortes de Kuririn: ${mortes_kuririn} \n"); // 7
+  
+  print("Operador de atribuição '-='");
+  mortes_kuririn -= 4;
+  print("N° de mortes de Kuririn: ${mortes_kuririn} \n"); // 3
+  
+  print("Operador de atribuição '*='");
+  mortes_kuririn *= 5;
+  print("N° de mortes de Kuririn: ${mortes_kuririn} \n"); // 15
+  
+  print("Operador de atribuição '/='");
+  mortes_kuririn /= 3;
+  print("N° de mortes de Kuririn: ${mortes_kuririn} \n"); // 5
+  
+  print("Operador de atribuição '%='");
+  mortes_kuririn %= 2;
+  print("N° de mortes de Kuririn: ${mortes_kuririn} \n"); // 1
+  
+  print("Operador de atribuição '~/='");
+  mortes_kuririn ~/= 2;
+  print("N° de mortes de Kuririn: ${mortes_kuririn} \n"); // 0
+  
+}
+~~~
+
+<p align="center">
+    <a href="https://dartpad.dev/?id=14d53543686c36868560d7e0b063cc08">
+        <img src="https://i.imgur.com/7IzI2Yh.png" height="24">
+    </a>
+</p>
+
+<h2 id="atribuicao_null">Tratamento de valores nulos</h2>
+
+Durante o desenvolvimento de aplicações é comum que seja necessário atribuir certos valores **_default_** para variáveis que não podem receber um **_null_** por atribuição. Para estes casos o Dart possui um operador de atribuição que simplifica o tratamento de valores nulos, denominados [operadores null-aware](https://dart.dev/codelabs/dart-cheatsheet#null-aware-operators). Os operadores **_null-aware_** são operadores de atribuição que conferem um valor a uma variável apenas se o seu valor atual for nulo. 
+
+<h3 align="center">Utilizando o operador null-aware '??='</h3>
+
+~~~dart
+void main(){
+  var yamcha_vitorias = null;
+  
+  print("Vitórias do Yancha: ${yamcha_vitorias}");
+  yamcha_vitorias ??= 1;
+  // Como inicialmente a variável possui o valor null, 
+  // será atribuido o valor 1
+  print("Vitórias do Yancha (contra o vento): ${yamcha_vitorias} \n");
+  
+  
+  // Perceba que a variável não será atribuída caso
+  // o valor inicial seja diferente de null
+  
+  var goku_power = 8001; // valor inicial diferente de null
+  goku_power ??= 7999; 
+  print("Poder Goku: ${goku_power}");
+}
+~~~
+
+<p align="center">
+    <a href="https://dartpad.dev/?id=65e5f16636c9ec52d42f51fd865faad7">
+        <img src="https://i.imgur.com/0THnfFo.png" height="24">
+    </a>
+</p>
+
+> Caso já tenha visto o tópico sobre operadores ternários, poderá notar alguma semelhança com o funcionamento do null-aware, pois ambos podem ser usados para o tratamento de valores nulos. Cabe ao desenvolvedor determinar qual o método mais apropriado para o seu caso.
 
 ***
 
