@@ -25,6 +25,7 @@ Uma variável é, basicamente, um espaço alocado na memória do computador para
 * <a href="#imutablidade">Modificadores de imutablidade no Dart</a>
     * <a href="#const">Const</a>
     * <a href="#final">Final</a>
+* <a href="#null_safety">Valores nulos e o Null Safety</a>
 * <a href="#leitura_e_link">📚 Leitura e links recomendado</a>
 * <a href="#licenca">🧾Licença</a>
 
@@ -439,12 +440,59 @@ void main(){
 
 ***
 
+<h2 id="null_safety">Valores nulos e o Null Safety</h2>
+
+Com a prática, será relativamente comum encontrar casos onde, por algum erro, uma variável é atribuída como nula em locais que isso não seria permitido. Por exemplo, podemos ter uma tela de cadastro, onde o usuário precisa informar seu nome, porém acaba por enviar um valor vazio, um valor **_null_**, ao invés de preencher com o seu nome, gerando erros durante a execução do programa, que esperava uma **_String_**.
+
+Para estes casos, existe um recurso denominado **Null Safety**, que garante a segurança do código contra esses erros. De maneira direta, o **Null Safety** realiza a validação da variável antes mesmo dela ser utilizada, bloqueando a execução do código até que este problema seja resolvido.
+
+
+<h3 align="center">Atribuindo um valor nulo</h3>
+
+~~~dart
+void main() {
+  String nullValue; // Esta variavel possui um valor null
+  print(nullValue);
+}
+~~~
+
+<p align="center">
+    <a href="https://dartpad.dev/?id=6d10daaea6ffe77ff8a8ca9ec0184b4d">
+        <img src="https://i.imgur.com/S0eC8Uy.png" height="24">
+    </a>
+</p>
+
+> Veja que ao tentar executar o código, o compilador retorna um erro, já que a variável possui o valor null.
+
+O **Null Safety** possui uma sintaxe simples, onde basta acrescentar um "?" ao tipo do objeto para que o compilador seja informado de que a variável pode receber o valor null. Desta maneira o desenvolvedor pode ter um maior controle do estado da variável mantendo a segurança do null safety.
+
+<h3 align="center">Indicando ao compilador que uma variável pode receber o valor null</h3>
+
+~~~dart
+void main() {
+  String? nullValue; // Esta variavel possui um valor null e pode recebe-lo
+  print(nullValue);
+}
+~~~
+
+<p align="center">
+    <a href="https://dartpad.dev/?id=65604da11b6b5c06710de099e453c31f">
+        <img src="https://i.imgur.com/7ENqim1.png" height="24">
+    </a>
+</p>
+
+> Note que agora nenhum erro é retornado e que valor _null_ é mostrado no console.
+
+***
+
 <h2 id="leitura_e_link">📚 Leitura e links recomendado</h2>
 
 * [📝 Dart - Documentação](https://dart.dev/guides)
 * [🎯 Dart Iniciante: Variáveis](https://www.flutterbrasil.com/12-dart-iniciante-variaveis)
 * [🎯 Dart Intermediário: Maps e List](https://www.flutterbrasil.com/23-dart-intermediario-maps-e-list)
 * [🎯 Sintaxe Dart: Tipos (não tão) primitivos](https://www.devmedia.com.br/sintaxe-dart-tipos-nao-tao-primitivos/40368)
+* [🎯 Dart e null-safety: uma alternativa funcional](https://blog.flutterando.com.br/dart-e-nnbd-9810aae37de7)
+* [🎯 Null Safety em Dart: como utilizar?](https://ateliware.com/blog/null-safety-em-dart)
 * [🎯 Qual a diferença entre Static, Const e Final no Dart](https://www.alura.com.br/artigos/diferenca-entre-static-const-final-no-dart)
 * [🎯 Introdução à programação com Dart](https://dev.to/madebyluque/introducao-a-programacao-com-dart-aji)
 * [🎯 Video: Declarando e Modificando Variáveis](https://www.youtube.com/watch?v=wMS3DO0jL0I&list=PLR5GUTqrcwXhVV-jNR38vfAZabkmGGKfO&index=2)
