@@ -11,7 +11,7 @@
 Primeiramente, antes de iniciar o desenvolvimento, é interessante criar um pequeno resumo do artigo que cite brevemente o que será apresentado. Deste modo, será possível situar o leitor no tema antes de apresentá-lo aos tópicos abordados.  
 
 ***
-<h2>🧮 Sumário</h2>
+<h2 id="sumario">🧮 Sumário</h2>
   
   * <a href="#sumario">Adicione todos os temas abordados aqui.</a> 
   * <a href="#sumario">Assim o leitor poderá</a> 
@@ -56,6 +56,9 @@ Em "📚 Leitura e links recomendados" busque trazer alguma documentação, arti
 
 >A licença utilizada no artigo deve ser a mesma utilizada em todo o repositório.
 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
 
 ***
 <h2 id="exemplo"> 📚 Leitura e links recomendados </h2>
@@ -63,8 +66,16 @@ Em "📚 Leitura e links recomendados" busque trazer alguma documentação, arti
 * [📝 Dart - Documentação](https://dart.dev/guides)
 * [🎯 Introdução à programação com Dart](https://dev.to/madebyluque/introducao-a-programacao-com-dart-aji)
 
+
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
 ***
 <h2 id="exemplo"> 🧾Licença </h2>
 
 Este projeto está sob a licença [Apache 2.0](https://github.com/JosManoel/Dart-Study/blob/main/LICENSE).
 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>

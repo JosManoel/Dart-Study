@@ -10,7 +10,7 @@ As operações, assim como na matemática, executam ações específicas entre u
 
 ***
 
-<h2>🧮 Sumário</h2>
+<h2 id="sumario">🧮 Sumário</h2>
    
 * <a href="#operadores_aritimeticos">Operadores aritiméticos</a>
   * <a href="#soma">Soma</a>
@@ -44,6 +44,11 @@ Os operadores aritméticos possuem as mesmas propriedades dos operadores utiliza
 |%           | Módulo (Retorna o resto da divisão)                  |
 |-(expressão)| Inverte o sinais de uma expressão                    |
 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
+***
 
 <h2 id="soma">Soma</h2>
 
@@ -97,6 +102,11 @@ void main(){
     </a>
 </p>
 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
+***
 
 <h2 id="subtracao">Subtração</h2>
 
@@ -121,6 +131,12 @@ void main(){
     </a>
 </p>
 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
+***
+
 <h2 id="multiplicacao">Multiplicação</h2>
 
 <h3 align="center">Multiplicação de valores</h3>
@@ -144,6 +160,11 @@ void main(){
     </a>
 </p>
 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
+***
 
 <h2 id="divisao">Divisão</h2>
 
@@ -186,6 +207,11 @@ void main(){
     </a>
 </p>
 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
+***
 
 <h2 id="modulo">Módulo</h2>
 
@@ -206,6 +232,11 @@ void main(){
     </a>
 </p>
 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
+***
 
 <h2 id="invertendo_sinais">Invertendo sinais</h2>
 
@@ -225,6 +256,10 @@ void main(){
     <a href="https://dartpad.dev/?id=77236e7ce30df202f083c2a03ce33451">
         <img src="https://i.imgur.com/lXH9Iai.png" height="24">
     </a>
+</p>
+
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
 </p>
 
 ***
@@ -323,6 +358,10 @@ void main(){
 
 > Caso já tenha visto o tópico sobre [operadores ternários](https://github.com/JosManoel/Dart-Study/blob/main/topics/Controle_de_fluxo.md#operador_ternario), poderá notar alguma semelhança com o funcionamento do null-aware, pois ambos podem ser usados para o tratamento de valores nulos. Cabe ao desenvolvedor determinar qual o método mais apropriado para o seu caso.
 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
 ***
 
 <h2 id="operadores_de_incremento">Operadores de incremento</h2>
@@ -360,6 +399,10 @@ void main(){
     <a href="https://dartpad.dev/?id=a2294e0023377d3903ded95c5e7725d6">
         <img src="https://i.imgur.com/M2sg4Vs.png" height="24">
     </a>
+</p>
+
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
 </p>
 
 ***
@@ -450,6 +493,10 @@ void main(){
     </a>
 </p>
 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
 ***
 
 <h2 id="leitura_e_link">📚 Leitura e links recomendado</h2>
@@ -461,7 +508,17 @@ void main(){
 * [🎯 Video: Realizando Operações Aritméticas](https://www.youtube.com/watch?v=mp7lNJH8Ws0&list=PLR5GUTqrcwXhVV-jNR38vfAZabkmGGKfO&index=3)
 * [🎯 Video: Realizando Operações Lógicas](https://www.youtube.com/watch?v=1QQhZ61dg9k&list=PLR5GUTqrcwXhVV-jNR38vfAZabkmGGKfO&index=4)
 * [🎯 Video: Dart - Curso Completo: Operadores de Atribuição (Operators)](https://www.youtube.com/watch?v=EE3Jzhjb1A0)
+
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
 ***
+
 <h2 id="licenca">🧾Licença</h2>
 
 Este projeto está sob a licença [Apache 2.0](https://github.com/JosManoel/Dart-Study/blob/main/LICENSE).
+
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>

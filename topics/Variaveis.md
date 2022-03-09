@@ -11,7 +11,7 @@ Uma variável é, basicamente, um espaço alocado na memória do computador para
 
 
 ***
-<h2>🧮 Sumário</h2>
+<h2 id="sumario">🧮 Sumário</h2>
 
 * <a href="#numbers">Numbers</a>
 * <a href="#strings">Strings</a>
@@ -59,6 +59,12 @@ void main(){
 
 > O conjunto de variáveis do tipo number possui outros diversos métodos e acesso a bibliotecas que serão abordados em um futuro tópico.
 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
+***
+
 <h2 id="strings">Strings</h2>
 
 As strings, assim como na maioria das linguagens de programação atuais, são responsáveis por armazenar um ou mais caracteres, representada com aspas duplas ou simples. Existem várias maneiras de se trabalhar com strings, seja concatenando ou alterando o valor inicial. Estas e outras funcionalidades serão abordadas posteriormente em ou tópico específico.
@@ -84,6 +90,11 @@ void main(){
 
 > Perceba que na variável anime2, apesar de conter números, eles são tratados com uma string e não como um int. Isso acontece porque estão dentro das aspas.
 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
+***
 
 <h2 id="runes">Runes</h2>
 
@@ -109,6 +120,12 @@ As runas são uma categoria de string com uma importante funcionalidade acrescen
 </p>
 
 > Esta função pode gerar alguns erros no DartPad devido a falta de suporte a alguns emojis.
+
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
+***
 
 <h2 id="boolean">Boolean</h2>
 
@@ -149,6 +166,12 @@ O Dart dispõe de uma série de operadores para serem utilizados para comparar v
 |  !is    | Verifica se o tipo do item é diferente do tipo de outra variável.|
 
 > Estes operadores serão abordados mais profundamente nos tópicos de condicionais.
+
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
+***
 
 <h2 id="list"> List</h2>
 
@@ -250,6 +273,11 @@ void main(){
     </a>
 </p>
 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
+***
 
 <h2 id="maps"> Maps</h2>
 
@@ -296,6 +324,12 @@ void main(){
 
 > Os maps possuem várias outras formas de serem utilizados. Para se aprofundar, entre em algum dos links da leitura recomendada. 
 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
+***
+
 <h2 id="sets"> Sets</h2>
 
 Os sets em dart são conjuntos não ordenados de itens exclusivos, semelhantes aos conjuntos matemáticos, onde a ordem e elementos duplicados não possuem relevância. Para utilizar um conjunto, deve-se especificar o seu tipo antes das chaves, caso contrário, será reconhecido como um map comum.
@@ -323,6 +357,11 @@ void main(){
 
 > As coleções de objetos do tipo Set podem ser iteradas de outras 3 diferentes formas, sendo elas a _HashSet_, _LinkedHashSet_ e _SplayTreeSet_, que serão abordadas de maneira aprofundada posteriormente.
 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
+***
 
 <h2 id="var"> Var</h2>
 
@@ -349,6 +388,11 @@ void main(){
 
 > Atenção: Ao utilizar o var, o dart utiliza um pouco mais de processamento para descobrir o tipo adequado de variável. Atente-se ao uso excessivo deste método para evitar processamento desnecessário.
 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
+***
 
 <h2 id="dynamic"> Dynamic</h2>
 
@@ -372,6 +416,10 @@ void main(){
     <a href="https://dartpad.dev/?id=035717d766baee715cfc549f4cd1d7f1">
         <img src="https://i.imgur.com/EPnyFeP.png" height="24">
     </a>
+</p>
+
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
 </p>
 
 ***
@@ -438,6 +486,10 @@ void main(){
 
 > Note que, apesar de ter seu valor atribuído após sua inicialização, o modificador final ainda protege a variável de futuras modificações, não sendo possível atribuir um novo valor após sua primeira atribuição.
 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
 ***
 
 <h2 id="null_safety">Valores nulos e o Null Safety</h2>
@@ -483,6 +535,10 @@ void main() {
 
 > Note que agora nenhum erro é retornado e que valor _null_ é mostrado no console.
 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
 ***
 
 <h2 id="leitura_e_link">📚 Leitura e links recomendado</h2>
@@ -497,8 +553,16 @@ void main() {
 * [🎯 Introdução à programação com Dart](https://dev.to/madebyluque/introducao-a-programacao-com-dart-aji)
 * [🎯 Video: Declarando e Modificando Variáveis](https://www.youtube.com/watch?v=wMS3DO0jL0I&list=PLR5GUTqrcwXhVV-jNR38vfAZabkmGGKfO&index=2)
 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
 ***
 
 <h2 id="licenca">🧾Licença</h2>
 
 Este projeto está sob a licença [Apache 2.0](https://github.com/JosManoel/Dart-Study/blob/main/LICENSE).
+
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>

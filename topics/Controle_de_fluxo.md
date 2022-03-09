@@ -9,7 +9,7 @@
 As estruturas condicionais permitem executar determinados trechos do código caso alguma condição seja obedecida. Através destes operadores é possível manipular o fluxo natural de execução do código, otimizando-o e reduzindo o número de linhas necessárias para construção de uma função.
 
 ***
-<h2>🧮 Sumário</h2>
+<h2 id="sumario">🧮 Sumário</h2>
  
  * <a href="#If_else">If... else</a>
  * <a href="#operador_ternario">Operador Ternário</a>
@@ -112,6 +112,10 @@ void main(){
 
 > O ".toString()", utilizado no código acima é uma função que converte uma variável para uma String. Esta função será abordada melhor num futuro tópico.
 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
 ***
 
 <h2 id="operador_ternario">Operador Ternário</h2>
@@ -180,6 +184,10 @@ void main(){
     </a>
 </p>
 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
 ***
 
 <h2 id="switch_case">Switch/Case</h2>
@@ -223,6 +231,10 @@ No Switch/Case também fazemos uso da palavra **break**. O break é utilizado pa
 
 > O uso excessivo dessa condicional não é recomendado por questões de performance. 
 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
 ***
 
 <h2 id="leitura_e_link">📚 Leitura e links recomendado</h2>
@@ -234,8 +246,16 @@ No Switch/Case também fazemos uso da palavra **break**. O break é utilizado pa
 * [🎯 toString method](https://api.flutter.dev/flutter/dart-core/num/toString.html)
 * [🎯 Video: Tomando Decisões (Condicionais)](https://www.youtube.com/watch?v=_FMjnxwxGzA&list=PLR5GUTqrcwXhVV-jNR38vfAZabkmGGKfO&index=5)
 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
 ***
 
 <h2 id="licenca">🧾Licença</h2>
 
 Este projeto está sob a licença [Apache 2.0](https://github.com/JosManoel/Dart-Study/blob/main/LICENSE).
+
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>

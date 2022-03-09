@@ -11,7 +11,7 @@ Atualmente, grande parte das linguagens de programação apresentam o conceito d
 Esse método ainda pode ser utilizado para criar pequenas anotações, muito presentes durante o desenvolvimento de aplicações em equipe, ou para ocultar determinados trechos de código para o compilador. Os comentários podem desempenhar diversas funções, dependendo apenas da criatividade do programador, sempre prezando por uma boa organização e formatação do código. 
 
 ***
-<h2>🧮 Sumário</h2>
+<h2 id="sumario">🧮 Sumário</h2>
  
   * <a href="#comentarios_dart">🗨️ Comentários em Dart</a> 
     * <a href="comentario_linha_unica">Comentários de linha única</a>
@@ -68,6 +68,11 @@ Neste mundo de emoção que você chegou!
     </a>
 </p>
 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
+***
 
 <h2 id="comentarios_documentação">💬 Comentários de documentação</h2>
 
@@ -112,6 +117,10 @@ Autor: Akira Toriyama.
 
 > Sua visualização só é suportadas em ferramentas de edição de código mais completas, como o VS Studio.
 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
 ***
 
 <h2 id="leitura_e_link">📚 Leitura e links recomendado</h2>
@@ -120,8 +129,16 @@ Autor: Akira Toriyama.
 * [🎯 APRENDE DART: COMENTARIOS EN DART](https://dartgoogle.wordpress.com/2014/06/09/google-dart-comentarios-dart/)
 * [🎯 Comentários de Documentação no Dart](https://medium.com/@leonardopaim/coment%C3%A1rios-de-documenta%C3%A7%C3%A3o-no-dart-d3deeeb1bc72#:~:text=O%20Dart%20possui%20uma%20forma,com%20muitas%20dicas%20de%20utiliza%C3%A7%C3%A3o.)
 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
 ***
 
 <h2 id="licenca">🧾Licença</h2>
 
 Este projeto está sob a licença [Apache 2.0](https://github.com/JosManoel/Dart-Study/blob/main/LICENSE).
+
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>

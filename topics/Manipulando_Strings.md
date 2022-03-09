@@ -9,7 +9,7 @@
 As Strings são utilizadas principalmente para apresentar texto, funcionando basicamente como uma **lista de caracteres**. O Dart representa uma String como uma sequência de unidades de código **UTF-16**, onde cada caractere pode ser representado por uma ou mais unidades, como é comumente utilizado em **emojis**, que necessitam de pelo menos duas unidades de código.  
 
 ***
-<h2>🧮 Sumário</h2>
+<h2 id="sumario">🧮 Sumário</h2>
 
  * <a href="#formato_UTF16">Formato UTF-16</a> 
  * <a href="#linha-unica_multilinha">Strings de linha única e multilinhas</a>
@@ -45,6 +45,11 @@ No formato UTF-16 os caracteres são codificados em duas ou mais palavras ( unid
 
 Durante a programação, utilizando a linguagem Dart, o conhecimento completo do formato UTF-16 não se faz necessário. Entretanto, é preciso ter em mente que esse formato possui algumas peculiaridades em relação à representação de emojis que podem resultar em possíveis erros. O tratamento desses casos será abordado em um futuro tópico.
 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
+***
 
 <h2 id="linha-unica_multilinha">Strings de linha única e multilinhas</h2>
 
@@ -80,7 +85,12 @@ void main(){
     </a>
 </p>
  
- 
+ <p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
+***
+
 <h2 id="operacoes">Modificando e realizando operações</h2>
 
 Em suma, as strings são imutáveis. No entanto, é possível realizar operações com uma string, resultando na criação de uma nova. Como exemplo disso temos a concatenação de strings, que resulta numa nova string que contém a informação de todas as outras.
@@ -103,6 +113,11 @@ void main(){
     </a>
 </p>
 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
+***
  
 <h2 id="interpolando_variaveis">Interpolando variáveis</h2>
 
@@ -121,6 +136,11 @@ void main(){
     </a>
 </p>
  
+ <p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
+***
  
 <h2 id="contando_caracteres">Contando caracteres</h2>
 
@@ -170,7 +190,12 @@ void main(){
     </a>
 </p>
  
- 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
+***
+
 <h2 id="principais_metodos">Principais métodos utilizados para String</h2>
 
 <h3 id="ToLowerCase()">ToLowerCase()</h3>
@@ -194,6 +219,10 @@ void main(){
     </a>
 </p>
  
+ <p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
  
 <h3 id="ToUpperCase()">ToUpperCase()</h3>
 
@@ -216,6 +245,9 @@ void main(){
     </a>
 </p>
  
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
  
 <h3 id="Contains()">Contains()</h3>
 
@@ -246,7 +278,9 @@ void main(){
     </a>
 </p>
 
-
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
 
 <h3 id="StartsWith()">StartsWith()</h3>
 
@@ -277,6 +311,9 @@ void main(){
     </a>
 </p>
  
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
 
 <h3 id="EndsWith()">EndsWith()</h3>
 
@@ -299,7 +336,10 @@ void main(){
     </a>
 </p>
   
- 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
 <h3 id="ReplaceAll()">ReplaceAll()</h3>
 
 Este método pode ser bem útil para adicionar ou remover a acentuação de alguns caracteres. O método **replaceAll()** substitui todas as ocorrências de um caractere ou substring por outra previamente informada.
@@ -324,7 +364,10 @@ void main(){
     </a>
 </p>
  
- 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
 <h3 id="IndexOf()">IndexOf()</h3>
 
 O método **indexOf()** retorna o índice da primeira correspondência do caractere informado na string passada. Caso não exista nenhuma correspondência, o valor retornado é **-1**.
@@ -351,7 +394,10 @@ void main(){
     </a>
 </p>
  
- 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
 <h3 id="LastIndexOf()">LastIndexOf()</h3>
 
 O método **lastIndexOf()** retorna o índice da última correspondência da string fornecida, retornando **-1** caso não exista nenhuma correspondência.
@@ -373,7 +419,9 @@ void main(){
     </a>
 </p>
  
- 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
 
 <h3 id="Trim()">Trim()</h3>
 
@@ -432,6 +480,9 @@ void main(){
     </a>
 </p>
 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
   
 <h3 id="PadLeft()">PadLeft()</h3>
 
@@ -456,6 +507,9 @@ void main(){
     </a>
 </p>
  
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
 
 <h3 id="PadRight()">PadRight()</h3>
 
@@ -479,7 +533,10 @@ void main(){
         <img src="https://i.imgur.com/bQaxOLC.png" height="24">
     </a>
 </p>
- 
+
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
 
 <h3 id="Split()">Split()</h3>
 
@@ -506,6 +563,10 @@ void main(){
     </a>
 </p>
   
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
 ***
 
 <h3 id="problema_do_String">Problemas ao Utilizar a String: Utilização de Emojis</h3>
@@ -546,7 +607,12 @@ void main(){
 > Existe outros possíveis erros não tão comuns na utilização de Emojis dentro de projetos com o Dart e o Flutter. Caso queira se inteirar, acesse o [artigo](https://medium.com/dartlang/dart-string-manipulation-done-right-5abd0668ba3e) escrito por Tao dong.
 
 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
 ***
+
 <h2 id="leitura_e_link">📚 Leitura e links recomendado</h2>
 
 * [📝 Dart - Documentação](https://dart.dev/guides)
@@ -555,8 +621,16 @@ void main(){
 * [🎯 Dart string manipulation done right](https://medium.com/dartlang/dart-string-manipulation-done-right-5abd0668ba3e)
 * [📝 Transformação entre as representações UTF-8 e UTF-16](http://www4.inf.puc-rio.br/~inf1018//2013.1/trabs/t1/trab1.html)
 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
 ***
+
 <h2 id="licenca">🧾Licença</h2>
 
 Este projeto está sob a licença [Apache 2.0](https://github.com/JosManoel/Dart-Study/blob/main/LICENSE).
 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>

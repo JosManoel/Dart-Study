@@ -9,7 +9,7 @@
 As estruturas de repetições são pequenos artifícios presentes na grande maioria das linguagens de programação. Elas permitem que certos trechos de código possam ser repetidos por uma quantidade de vezes predefinida ou até que uma condição seja obedecida, sem a necessidade de duplicar o código.
 
 ***
-<h2>🧮 Sumário</h2>
+<h2 id="sumario">🧮 Sumário</h2>
  
  * <a href="#for_lacoes_de_rep">For - Laços de repetições predefinidas</a>
  * <a href="#for_in_interavel">For ..in - Laços interáveis</a>
@@ -97,6 +97,10 @@ void main(){
     </a>
 </p>
  
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
 ***
 
 <h2 id="map">map() - manipulação de listas</h2>
@@ -164,6 +168,10 @@ void main(){
     </a>
 </p>
  
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
 ***
 
 <h2 id="while">While - Interações não predefinidas</h2>
@@ -247,8 +255,11 @@ Golpe especial!
  
 > No exemplo anterior o Ki será carregado apenas se o valor inicial for menor que 10. Caso a variável seja iniciada com o valor 10, não será necessário carregar o Ki.
 
-***
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
 
+***
 
 <h2 id="controle">Declarações de controle</h2>
 
@@ -318,6 +329,10 @@ void main(){
 
 > Observe que o texto "Goku SSJ2" não é mostrado, já que seu ciclo é encerrado antes desta ação ocorrer.
 
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
 ***
 
 <h2 id="leitura_e_link">📚 Leitura e links recomendado</h2>
@@ -336,8 +351,17 @@ void main(){
 * [🎯 Você sabe utilizar um mapa? {Dart}](https://www.linkedin.com/pulse/voc%C3%AA-sabe-utilizar-um-mapa-dart-fellipe-malta/?originalSubdomain=pt)
 * [🎯 DART - DECLARAÇÕES DE CONTROLE DE LOOP (INTERROMPER E CONTINUAR)](https://acervolima.com/dart-declaracoes-de-controle-de-loop-interromper-e-continuar/)
 * [🎯 Video: Realizando Repetições (Loops)](https://www.youtube.com/watch?v=PAv1k0z4wrI&list=PLR5GUTqrcwXhVV-jNR38vfAZabkmGGKfO&index=8)
+
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
+
 ***
 
 <h2 id="licenca">🧾Licença</h2>
 
 Este projeto está sob a licença [Apache 2.0](https://github.com/JosManoel/Dart-Study/blob/main/LICENSE).
+
+<p align="right">
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+</p>
