@@ -71,17 +71,27 @@ void main(){
 
 <h2 id="topicos">🧮 Tópicos</h2>
 
-<h3>Iniciante</h3>
+<h3>
+    <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/icone_basico.png" width = "28"> 
+    Módulo Básico
+</h3>
 
-* [Declarando variáveis](https://github.com/JosManoel/Dart-Study/blob/main/topics/Variaveis.md) ✔️ 
-* [Comentários](https://github.com/JosManoel/Dart-Study/blob/main/topics/Coment%C3%A1rios.md) ✔️
-* [Operadores e operações](https://github.com/JosManoel/Dart-Study/blob/main/topics/Operadores_e_operacoes.md) ✔️
-* [Controle de fluxo - Estruturas condicionais](https://github.com/JosManoel/Dart-Study/blob/main/topics/Controle_de_fluxo.md) ✔️
-* [Estruturas de repetição](https://github.com/JosManoel/Dart-Study/blob/main/topics/Estruturas_de_repeticao.md) ✔️
-* [Manipulando Strings](https://github.com/JosManoel/Dart-Study/blob/main/topics/Manipulando_Strings.md) ✔️
+1. [Utilizando os comentários](https://github.com/JosManoel/Dart-Study/blob/main/topics/Utilizando_os_comentarios.md) ✔️
+2. [Declarando variáveis](https://github.com/JosManoel/Dart-Study/blob/main/topics/Declarando_variaveis.md) ✔️ 
+3. [Manipulando Strings](https://github.com/JosManoel/Dart-Study/blob/main/topics/Manipulando_Strings.md) ✔️
+4. [Operadores e operações](https://github.com/JosManoel/Dart-Study/blob/main/topics/Operadores_e_operacoes.md) ✔️
+5. [Estruturas condicionais](https://github.com/JosManoel/Dart-Study/blob/main/topics/Controle_de_fluxo.md) ✔️
+6. [Estruturas de repetição](https://github.com/JosManoel/Dart-Study/blob/main/topics/Estruturas_de_repeticao.md) ✔️
 
-<h3>Médio</h3>
-<h3>Avançado</h3>
+<h3>
+    <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/icone_intermediario.png" width = "28"> 
+    Módulo Intermediário
+</h3>
+
+<h3>
+    <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/icone_avancado.png" width = "28"> 
+    Módulo Avançado
+</h3>
 
 
 
