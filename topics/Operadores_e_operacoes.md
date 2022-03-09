@@ -45,7 +45,9 @@ Os operadores aritméticos possuem as mesmas propriedades dos operadores utiliza
 |-(expressão)| Inverte o sinais de uma expressão                    |
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -103,7 +105,9 @@ void main(){
 </p>
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -132,7 +136,9 @@ void main(){
 </p>
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -161,7 +167,9 @@ void main(){
 </p>
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -208,7 +216,9 @@ void main(){
 </p>
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -233,7 +243,9 @@ void main(){
 </p>
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -259,7 +271,9 @@ void main(){
 </p>
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -359,7 +373,9 @@ void main(){
 > Caso já tenha visto o tópico sobre [operadores ternários](https://github.com/JosManoel/Dart-Study/blob/main/topics/Controle_de_fluxo.md#operador_ternario), poderá notar alguma semelhança com o funcionamento do null-aware, pois ambos podem ser usados para o tratamento de valores nulos. Cabe ao desenvolvedor determinar qual o método mais apropriado para o seu caso.
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -402,7 +418,9 @@ void main(){
 </p>
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -494,7 +512,9 @@ void main(){
 </p>
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -510,7 +530,9 @@ void main(){
 * [🎯 Video: Dart - Curso Completo: Operadores de Atribuição (Operators)](https://www.youtube.com/watch?v=EE3Jzhjb1A0)
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -520,5 +542,7 @@ void main(){
 Este projeto está sob a licença [Apache 2.0](https://github.com/JosManoel/Dart-Study/blob/main/LICENSE).
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>

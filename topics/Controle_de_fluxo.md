@@ -113,7 +113,9 @@ void main(){
 > O ".toString()", utilizado no código acima é uma função que converte uma variável para uma String. Esta função será abordada melhor num futuro tópico.
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -185,7 +187,9 @@ void main(){
 </p>
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -232,7 +236,9 @@ No Switch/Case também fazemos uso da palavra **break**. O break é utilizado pa
 > O uso excessivo dessa condicional não é recomendado por questões de performance. 
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -247,7 +253,9 @@ No Switch/Case também fazemos uso da palavra **break**. O break é utilizado pa
 * [🎯 Video: Tomando Decisões (Condicionais)](https://www.youtube.com/watch?v=_FMjnxwxGzA&list=PLR5GUTqrcwXhVV-jNR38vfAZabkmGGKfO&index=5)
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -257,5 +265,7 @@ No Switch/Case também fazemos uso da palavra **break**. O break é utilizado pa
 Este projeto está sob a licença [Apache 2.0](https://github.com/JosManoel/Dart-Study/blob/main/LICENSE).
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>

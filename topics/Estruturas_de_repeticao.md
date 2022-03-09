@@ -98,7 +98,9 @@ void main(){
 </p>
  
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -169,7 +171,9 @@ void main(){
 </p>
  
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -256,7 +260,9 @@ Golpe especial!
 > No exemplo anterior o Ki será carregado apenas se o valor inicial for menor que 10. Caso a variável seja iniciada com o valor 10, não será necessário carregar o Ki.
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -330,7 +336,9 @@ void main(){
 > Observe que o texto "Goku SSJ2" não é mostrado, já que seu ciclo é encerrado antes desta ação ocorrer.
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -353,7 +361,9 @@ void main(){
 * [🎯 Video: Realizando Repetições (Loops)](https://www.youtube.com/watch?v=PAv1k0z4wrI&list=PLR5GUTqrcwXhVV-jNR38vfAZabkmGGKfO&index=8)
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -363,5 +373,7 @@ void main(){
 Este projeto está sob a licença [Apache 2.0](https://github.com/JosManoel/Dart-Study/blob/main/LICENSE).
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>

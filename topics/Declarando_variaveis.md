@@ -60,7 +60,9 @@ void main(){
 > O conjunto de variáveis do tipo number possui outros diversos métodos e acesso a bibliotecas que serão abordados em um futuro tópico.
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -91,7 +93,9 @@ void main(){
 > Perceba que na variável anime2, apesar de conter números, eles são tratados com uma string e não como um int. Isso acontece porque estão dentro das aspas.
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -122,7 +126,9 @@ As runas são uma categoria de string com uma importante funcionalidade acrescen
 > Esta função pode gerar alguns erros no DartPad devido a falta de suporte a alguns emojis.
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -168,7 +174,9 @@ O Dart dispõe de uma série de operadores para serem utilizados para comparar v
 > Estes operadores serão abordados mais profundamente nos tópicos de condicionais.
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -274,7 +282,9 @@ void main(){
 </p>
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -325,7 +335,9 @@ void main(){
 > Os maps possuem várias outras formas de serem utilizados. Para se aprofundar, entre em algum dos links da leitura recomendada. 
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -358,7 +370,9 @@ void main(){
 > As coleções de objetos do tipo Set podem ser iteradas de outras 3 diferentes formas, sendo elas a _HashSet_, _LinkedHashSet_ e _SplayTreeSet_, que serão abordadas de maneira aprofundada posteriormente.
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -389,7 +403,9 @@ void main(){
 > Atenção: Ao utilizar o var, o dart utiliza um pouco mais de processamento para descobrir o tipo adequado de variável. Atente-se ao uso excessivo deste método para evitar processamento desnecessário.
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -419,7 +435,9 @@ void main(){
 </p>
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -487,7 +505,9 @@ void main(){
 > Note que, apesar de ter seu valor atribuído após sua inicialização, o modificador final ainda protege a variável de futuras modificações, não sendo possível atribuir um novo valor após sua primeira atribuição.
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -536,7 +556,9 @@ void main() {
 > Note que agora nenhum erro é retornado e que valor _null_ é mostrado no console.
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -554,7 +576,9 @@ void main() {
 * [🎯 Video: Declarando e Modificando Variáveis](https://www.youtube.com/watch?v=wMS3DO0jL0I&list=PLR5GUTqrcwXhVV-jNR38vfAZabkmGGKfO&index=2)
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -564,5 +588,7 @@ void main() {
 Este projeto está sob a licença [Apache 2.0](https://github.com/JosManoel/Dart-Study/blob/main/LICENSE).
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>

@@ -46,7 +46,9 @@ No formato UTF-16 os caracteres são codificados em duas ou mais palavras ( unid
 Durante a programação, utilizando a linguagem Dart, o conhecimento completo do formato UTF-16 não se faz necessário. Entretanto, é preciso ter em mente que esse formato possui algumas peculiaridades em relação à representação de emojis que podem resultar em possíveis erros. O tratamento desses casos será abordado em um futuro tópico.
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -86,7 +88,9 @@ void main(){
 </p>
  
  <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -114,7 +118,9 @@ void main(){
 </p>
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -137,7 +143,9 @@ void main(){
 </p>
  
  <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -191,7 +199,9 @@ void main(){
 </p>
  
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -220,7 +230,9 @@ void main(){
 </p>
  
  <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
  
@@ -246,7 +258,9 @@ void main(){
 </p>
  
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
  
 <h3 id="Contains()">Contains()</h3>
@@ -279,7 +293,9 @@ void main(){
 </p>
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 <h3 id="StartsWith()">StartsWith()</h3>
@@ -312,7 +328,9 @@ void main(){
 </p>
  
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 <h3 id="EndsWith()">EndsWith()</h3>
@@ -337,7 +355,9 @@ void main(){
 </p>
   
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 <h3 id="ReplaceAll()">ReplaceAll()</h3>
@@ -365,7 +385,9 @@ void main(){
 </p>
  
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 <h3 id="IndexOf()">IndexOf()</h3>
@@ -395,7 +417,9 @@ void main(){
 </p>
  
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 <h3 id="LastIndexOf()">LastIndexOf()</h3>
@@ -420,7 +444,9 @@ void main(){
 </p>
  
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 <h3 id="Trim()">Trim()</h3>
@@ -481,7 +507,9 @@ void main(){
 </p>
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
   
 <h3 id="PadLeft()">PadLeft()</h3>
@@ -508,7 +536,9 @@ void main(){
 </p>
  
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 <h3 id="PadRight()">PadRight()</h3>
@@ -535,7 +565,9 @@ void main(){
 </p>
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 <h3 id="Split()">Split()</h3>
@@ -564,7 +596,9 @@ void main(){
 </p>
   
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -608,7 +642,9 @@ void main(){
 
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -622,7 +658,9 @@ void main(){
 * [📝 Transformação entre as representações UTF-8 e UTF-16](http://www4.inf.puc-rio.br/~inf1018//2013.1/trabs/t1/trab1.html)
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -632,5 +670,7 @@ void main(){
 Este projeto está sob a licença [Apache 2.0](https://github.com/JosManoel/Dart-Study/blob/main/LICENSE).
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
