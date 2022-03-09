@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/banner.png"> 
+<img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/template/banner.png"> 
 
 <p>
 
@@ -35,7 +35,7 @@ void main(){
 
 <p align="center">
     <a href="https://dartpad.dev/?id=e4fc4aa1698cebc735259936fbddf6d2">
-        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/shield.png" height="24">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/template/shield.png" height="24">
     </a>
 </p>
 
@@ -54,10 +54,13 @@ Os espaços a seguir tratam da licença e dos links recomendados.
 
 Em "📚 Leitura e links recomendados" busque trazer alguma documentação, artigo ou vídeo que julgue necessário ou que utilizou para elaborar o artigo. De qualquer modo, o importante é sempre trazer algo a mais para o leitor, incentivando-o a buscar outras fontes e fortalecendo o aprendizado.
 
->A licença utilizada no artigo deve ser a mesma utilizada em todo o repositório.
+>A licença utilizada no artigo deve ser a mesma utilizada em todo o repositório, a [Apache 2.0](https://github.com/JosManoel/Dart-Study/blob/main/LICENSE).
+
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -68,7 +71,9 @@ Em "📚 Leitura e links recomendados" busque trazer alguma documentação, arti
 
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
 
 ***
@@ -77,5 +82,7 @@ Em "📚 Leitura e links recomendados" busque trazer alguma documentação, arti
 Este projeto está sob a licença [Apache 2.0](https://github.com/JosManoel/Dart-Study/blob/main/LICENSE).
 
 <p align="right">
-    <a href="#sumario" style="font-size:1rem;font-weight: bold;">Voltar ao topo ↑ </a>
+    <a href="#sumario" style="font-size:1rem;font-weight: bold;">
+        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
+    </a>
 </p>
