@@ -88,12 +88,18 @@ void main(){
     Módulo Intermediário
 </h3>
 
+1. [Criando funções](https://github.com/JosManoel/Dart-Study/blob/main/topics/Criando_funcoes.md)  🛠
+2.
+3.
+
 <h3>
     <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/icone_avancado.png" width = "28"> 
     Módulo Avançado
 </h3>
 
-
+1.
+2.
+3.
 
 > ⚠️ Boa parte das variáveis utilizadas neste repositório possuem um tom descontraído, trazendo referencias a obras da cultura pop. O uso de variáveis como estas em outros projetos não é recomendado. ⚠️
 
