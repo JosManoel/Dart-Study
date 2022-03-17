@@ -88,7 +88,7 @@ void main(){
     Módulo Intermediário
 </h3>
 
-1. [Criando funções](https://github.com/JosManoel/Dart-Study/blob/main/topics/Criando_funcoes.md)  🛠
+1. [Criando funções](https://github.com/JosManoel/Dart-Study/blob/main/topics/Criando_funcoes.md)  ✔️
 2.
 3.
 
