@@ -403,7 +403,7 @@ Desta vez teremos um problema um pouco mais complexo para solucionar. Neste caso
 <h3 align="center">Formula: Calculo de arranjos simples</h3>
 
 <p align="center">
-    <img src="https://images.educamaisbrasil.com.br/content/banco_de_imagens/mb/d/analise-combinatoria-arranjos-simples.jpg">
+    <img src="https://i.imgur.com/3AA9nGY.png" height="120px">
 </p>
 
 > De maneira resumida, um arranjo simples pode ser definido como todos os agrupamentos ordenados e sem repetição que podem ser formados a partir de um determinado conjunto de elementos.
