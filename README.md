@@ -73,28 +73,28 @@ void main(){
 
 <h3>
     <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/icone_basico.png" width = "28"> 
-    Módulo Básico
+    1 - Módulo Básico
 </h3>
 
-1. [Utilizando os comentários](https://github.com/JosManoel/Dart-Study/blob/main/topics/Utilizando_os_comentarios.md) ✔️
-2. [Declarando variáveis](https://github.com/JosManoel/Dart-Study/blob/main/topics/Declarando_variaveis.md) ✔️ 
-3. [Manipulando Strings](https://github.com/JosManoel/Dart-Study/blob/main/topics/Manipulando_Strings.md) ✔️
-4. [Operadores e operações](https://github.com/JosManoel/Dart-Study/blob/main/topics/Operadores_e_operacoes.md) ✔️
-5. [Estruturas condicionais](https://github.com/JosManoel/Dart-Study/blob/main/topics/Controle_de_fluxo.md) ✔️
-6. [Estruturas de repetição](https://github.com/JosManoel/Dart-Study/blob/main/topics/Estruturas_de_repeticao.md) ✔️
+1. [Utilizando os comentários](https://github.com/JosManoel/Dart-Study/blob/main/topics/1-1_Utilizando_os_comentarios.md) ✔️
+2. [Declarando variáveis](https://github.com/JosManoel/Dart-Study/blob/main/topics/1-2_Declarando_variaveis.md) ✔️ 
+3. [Manipulando Strings](https://github.com/JosManoel/Dart-Study/blob/main/topics/1-3_Manipulando_Strings.md) ✔️
+4. [Operadores e operações](https://github.com/JosManoel/Dart-Study/blob/main/topics/1-4_Operadores_e_operacoes.md) ✔️
+5. [Estruturas condicionais](https://github.com/JosManoel/Dart-Study/blob/main/topics/1-5_Estruturas_condicionais.md) ✔️
+6. [Estruturas de repetição](https://github.com/JosManoel/Dart-Study/blob/main/topics/1-6_Estruturas_de_repeticao.md) ✔️
 
 <h3>
     <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/icone_intermediario.png" width = "28"> 
-    Módulo Intermediário
+    2 - Módulo Intermediário
 </h3>
 
-1. [Criando funções](https://github.com/JosManoel/Dart-Study/blob/main/topics/Criando_funcoes.md)  ✔️
-2. [Utilizando bibliotecas](https://github.com/JosManoel/Dart-Study/blob/main/topics/Utilizando_bibliotecas.md)  🛠
+1. [Criando funções](https://github.com/JosManoel/Dart-Study/blob/main/topics/2-1_Criando_funcoes.md)  ✔️
+2. [Utilizando bibliotecas](https://github.com/JosManoel/Dart-Study/blob/main/topics/2-2_Utilizando_bibliotecas.md)  🛠
 3.
 
 <h3>
     <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/icone_avancado.png" width = "28"> 
-    Módulo Avançado
+    3 - Módulo Avançado
 </h3>
 
 1.
