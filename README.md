@@ -89,7 +89,7 @@ void main(){
 </h3>
 
 1. [Criando funções](https://github.com/JosManoel/Dart-Study/blob/main/topics/Criando_funcoes.md)  ✔️
-2.
+2. [Utilizando bibliotecas](https://github.com/JosManoel/Dart-Study/blob/main/topics/Utilizando_bibliotecas.md)  🛠
 3.
 
 <h3>
