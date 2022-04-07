@@ -129,7 +129,7 @@ Autor: Akira Toriyama.
 
 <h2 id="leitura_e_link">📚 Leitura e links recomendado</h2>
 
-* [🎯 AIntrodução à programação com Dart](https://dev.to/cephalopodluke/introducao-a-programacao-com-dart-aji)
+* [🎯 Introdução à programação com Dart](https://dev.to/cephalopodluke/introducao-a-programacao-com-dart-aji)
 * [🎯 APRENDE DART: COMENTARIOS EN DART](https://dartgoogle.wordpress.com/2014/06/09/google-dart-comentarios-dart/)
 * [🎯 Comentários de Documentação no Dart](https://medium.com/@leonardopaim/coment%C3%A1rios-de-documenta%C3%A7%C3%A3o-no-dart-d3deeeb1bc72#:~:text=O%20Dart%20possui%20uma%20forma,com%20muitas%20dicas%20de%20utiliza%C3%A7%C3%A3o.)
 
