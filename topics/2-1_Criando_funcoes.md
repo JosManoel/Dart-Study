@@ -21,7 +21,7 @@ Agora que você já passou pelo módulo básico, deve ter sentido a necessidade 
   * <a href="#recursiva">Funções recursivas</a>
     * <a href="#declarando_recursiva">Declarando funções recursivas</a>
   * <a href="#anonima">Funções anonimas</a>
-    * <a href="#anonima">Big Arrow Function</a>
+    * <a href="#BigArrowF">Big Arrow Function</a>
   * <a href="#main">Função principal</a>
   * <a href="#leitura_e_link">📚 Leitura e links recomendado</a>
   * <a href="#licenca">🧾Licença</a>
@@ -501,7 +501,7 @@ retornarPowerRanger(String cor, Function equipe){
     </a>
 </p>
 
-<h2 id="anonima">Big Arrow Function</h2>
+<h2 id="BigArrowF">Big Arrow Function</h2>
 
 Caso você já utilize outras linguagens, pode ter sentido alguma estranheza ao verificar a [sintaxe contraída](#sintaxe_constraida) de uma função convencional e a sintaxe de uma função anônima, pela falta de uma **_arrow_** **(** _=>_ **)**.
 
