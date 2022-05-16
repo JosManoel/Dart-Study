@@ -422,7 +422,7 @@ main() {
 </p>
 
 ***
-<h2 id="#Personalizadas">Exceções personalizadas</h2>
+<h2 id="Personalizadas">Exceções personalizadas</h2>
 
 O Dart permite ainda a criação de exceções personalizadas para suas aplicações. Do mesmo modo que as outras exceções são subtipos da classe interna "_Exception_", no Dart, as exceções personalizadas também são extensões desta classe. Apesar de trazer novos elementos, sua sintaxe ainda continua bastante simples, possuindo a seguinte estrutura:
 
@@ -547,7 +547,7 @@ A variedade de erros implementados pela **Error Class** é bem mais amplo que as
 
 
 ***
-<h2 id="#leitura_e_link"> 📚 Leitura e links recomendados </h2>
+<h2 id="leitura_e_link"> 📚 Leitura e links recomendados </h2>
 
 * [📝 Dart - Documentação](https://dart.dev/guides)
 * [🎯 Language Tuor: Exceptions](https://dart.dev/guides/language/language-tour#exceptions)
