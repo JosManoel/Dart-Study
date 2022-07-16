@@ -91,8 +91,11 @@ void main(){
 1. [Criando funções](https://github.com/JosManoel/Dart-Study/blob/main/topics/2-1_Criando_funcoes.md)  ✔️
 2. [Utilizando bibliotecas](https://github.com/JosManoel/Dart-Study/blob/main/topics/2-2_Utilizando_bibliotecas.md)  ✔️
 3. [Tratanto exceções](https://github.com/JosManoel/Dart-Study/blob/main/topics/2-3_Tratando_excecoes.md)  ✔️
-4. [Criando classes](https://github.com/JosManoel/Dart-Study/blob/main/topics/2-4_Criando_classes.md) 🛠
-5.
+4. [Criando classes](https://github.com/JosManoel/Dart-Study/blob/main/topics/2-4_Criando_classes.md) ✔️
+5. [Utilizando generics](https://github.com/JosManoel/Dart-Study/blob/main/topics/2-5_Utilizando_generics.md) 🛠
+6.
+
+
 <h3>
     <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/icone_avancado.png" width = "28"> 
     3 - Módulo Avançado
