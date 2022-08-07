@@ -221,11 +221,6 @@ Future<void> runUsingAsyncAwait() async {
 
 ~~~
 
-<p align="right">
-    <a href="#sumario">
-        <img src="https://raw.githubusercontent.com/JosManoel/Dart-Study/main/images/icons/voltar_ao_topo.png" height="32">
-    </a>
-</p>
 
 <h3 align="center">Future - Exemplo prático</h3>
 
@@ -302,7 +297,6 @@ try {
 </p>
 
 ***
-
 
 
 <h2 id="leitura_e_link">📚 Leitura e links recomendados</h2>
