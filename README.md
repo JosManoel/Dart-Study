@@ -93,7 +93,7 @@ void main(){
 3. [Tratanto exceções](https://github.com/JosManoel/Dart-Study/blob/main/topics/2-3_Tratando_excecoes.md)  ✔️
 4. [Criando classes](https://github.com/JosManoel/Dart-Study/blob/main/topics/2-4_Criando_classes.md) ✔️
 5. [Utilizando generics](https://github.com/JosManoel/Dart-Study/blob/main/topics/2-5_Utilizando_generics.md) ✔️
-6. [Suporte assíncrono](https://github.com/JosManoel/Dart-Study/blob/main/topics/2-6_Suporte_assincrono.md) 🛠
+6. [Programação assíncrona](https://github.com/JosManoel/Dart-Study/blob/main/topics/2-6_Programacao_assincrona.md) ✔️
 
 
 
